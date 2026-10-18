@@ -15,6 +15,8 @@ RUN useradd --create-home --uid 10001 kauta && mkdir -p /var/kauta && chown kaut
 RUN apt-get update \
  && apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng \
  && rm -rf /var/lib/apt/lists/*
+# El modelo de español estándar de tessdata (el paquete de Debian trae el «rápido», que lee peor las facturas)
+RUN python -c "import hashlib, urllib.request as u; d = u.urlopen('https://github.com/tesseract-ocr/tessdata/raw/main/spa.traineddata', timeout=120).read(); assert hashlib.sha256(d).hexdigest() == '0b0fcbb4665189e01ab8019e591f014dd7260460de072543edd4b2cb4ede7c96', 'spa.traineddata distinto'; open('/usr/share/tesseract-ocr/5/tessdata/spa.traineddata', 'wb').write(d)"
 WORKDIR /app
 COPY requirements-servidor.txt .
 RUN pip install -r requirements-servidor.txt
