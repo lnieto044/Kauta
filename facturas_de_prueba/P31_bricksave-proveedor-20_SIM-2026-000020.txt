@@ -1,0 +1,13 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Hola, les comparto la factura SIM-2026-000020 de documentación de propiedad.
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Fecha de emisión: 03/11/2026.
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Detalle de los ítems:
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): • SIM-SKU-20-1 · Documentación de propiedad: 25 horas × USD 180.00 = USD 4,500.00
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): • SIM-SKU-20-2 · Configuración, entrega o reporte asociado: 1 servicios × USD 180.00 = USD 180.00
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): • SIM-SKU-20-3 · Soporte y control de calidad: 2 horas × USD 55.00 = USD 110.00
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Subtotal USD 4,790.00 · impuesto 8 % USD 383.20 · anticipo aplicado USD 1,034.64
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Total a pagar: USD 4,138.56
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Vence el 16/01/2027. Orden de compra SIM-OC-20. Pago a la cuenta registrada terminada en 2843.
+[04/11/26, 13:20] SIM Bricksave Proveedor 20 (facturación): Identificación: EIN 85-1392947.
+[04/11/26, 13:20] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

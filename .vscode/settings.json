@@ -1,0 +1,10 @@
+{
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.analysis.extraPaths": ["."],
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": { "**/__pycache__": true, "**/.pytest_cache": true, "**/*.pyc": true },
+  "search.exclude": { "web/node_modules": true, "web/dist": true, "var": true, "salidas": true },
+  "files.encoding": "utf8",
+  "editor.rulers": [128]
+}

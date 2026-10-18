@@ -1,0 +1,14 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Hola, les comparto la factura SIM-2026-000018 de cobertura y administración de póliza.
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Fecha de emisión: 04/11/2026.
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Detalle de los ítems:
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): • SIM-SKU-18-1 · Cobertura y administración de póliza: 3,75 meses × COP 3.360.000 = COP 12.600.000
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): • SIM-SKU-18-2 · Configuración, entrega o reporte asociado: 1 servicios × COP 756.000 = COP 756.000
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): • SIM-SKU-18-3 · Soporte y control de calidad: 2 horas × COP 231.000 = COP 462.000
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Subtotal COP 13.818.000 · impuesto 16 % COP 2.210.880 · retención 2 % COP 276.360
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Total a pagar: COP 15.752.520
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Vence el 05/01/2027. Orden de compra SIM-OC-18. Pago a la cuenta registrada terminada en 0093.
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): Identificación: NIT 913.885.122-1.
+[05/11/26, 11:06] SIM Bricksave Proveedor 18 (facturación): OJO: cambiamos de banco. Por favor paguen a Banca Aurora (simulado), cuenta terminada en 0093. La anterior ya no la usamos.
+[05/11/26, 11:06] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

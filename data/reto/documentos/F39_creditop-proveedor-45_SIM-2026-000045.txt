@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Hola, les comparto la factura SIM-2026-000045 de cómputo y procesamiento.
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Detalle de los ítems:
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): • SIM-SKU-45-1 · Cómputo y procesamiento: 1.200 horas × EUR 2,58 = EUR 3.096,00
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): • SIM-SKU-45-2 · Configuración, entrega o reporte asociado: 1 servicios × EUR 165,60 = EUR 165,60
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): • SIM-SKU-45-3 · Soporte y control de calidad: 2 horas × EUR 50,60 = EUR 101,20
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Subtotal EUR 3.362,80 · impuesto 19 % EUR 638,93 · retención 1 % EUR 33,63
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Total a pagar: EUR 3.968,10
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Vence el 28/10/2026. Orden de compra SIM-OC-45. Pago a la cuenta registrada terminada en 3768.
+[27/09/26, 14:15] SIM Creditop Proveedor 45 (facturación): Identificación: NIF B46160695.
+[27/09/26, 14:15] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

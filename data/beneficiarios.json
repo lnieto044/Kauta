@@ -1,0 +1,283 @@
+[
+  {
+    "id": "B01",
+    "nombre": "Estudio Pixel Andino S.A.S.",
+    "id_fiscal": "NIT 901.482.317-5",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Diseño UX/UI",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 2400
+    },
+    "cuenta_registrada": "4821",
+    "contactos": [
+      "facturacion@pixelandino.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B02",
+    "nombre": "Carolina Méndez Ruiz",
+    "id_fiscal": "C.C. 1.032.456.789",
+    "pais": "CO",
+    "tipo_persona": "natural",
+    "categoria": "Desarrollo backend",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "COP",
+      "monto": 7680000
+    },
+    "cuenta_registrada": "1177",
+    "contactos": [
+      "carolina.mendez@example.com"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B03",
+    "nombre": "Nube Clara Hosting LLC",
+    "id_fiscal": "EIN 87-3315920",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Infraestructura cloud",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 850
+    },
+    "cuenta_registrada": "9034",
+    "contactos": [
+      "billing@nubeclara.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B04",
+    "nombre": "Traducciones Maya S.C.",
+    "id_fiscal": "RFC TMA190312KJ4",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Traducción y localización",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "MXN",
+      "monto": 27600
+    },
+    "cuenta_registrada": "5502",
+    "contactos": [
+      "admin@traduccionesmaya.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B05",
+    "nombre": "Datos del Sur S.R.L.",
+    "id_fiscal": "CUIT 30-71634528-5",
+    "pais": "AR",
+    "tipo_persona": "juridica",
+    "categoria": "Analítica de datos",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 3200
+    },
+    "cuenta_registrada": "3310",
+    "contactos": [
+      "cobranzas@datosdelsur.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B06",
+    "nombre": "Javier Ortega Luna",
+    "id_fiscal": "RFC OELJ880412AB5",
+    "pais": "MX",
+    "tipo_persona": "natural",
+    "categoria": "QA automation",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 1800
+    },
+    "cuenta_registrada": "7745",
+    "contactos": [
+      "Javier Ortega (WhatsApp)"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B07",
+    "nombre": "Legal Puente LLC",
+    "id_fiscal": "EIN 85-2247719",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Asesoría legal",
+    "contrato": {
+      "tipo": "por_horas",
+      "moneda": "USD",
+      "tarifa_hora": 150
+    },
+    "cuenta_registrada": "2290",
+    "contactos": [
+      "accounts@legalpuente.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B08",
+    "nombre": "Soporte Nexo S.A.S.",
+    "id_fiscal": "NIT 900.618.442-0",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Mesa de ayuda",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 2000
+    },
+    "cuenta_registrada": "6618",
+    "contactos": [
+      "facturas@soportenexo.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B09",
+    "nombre": "Ana Lucía Ríos",
+    "id_fiscal": "RFC RIRA910726QX7",
+    "pais": "MX",
+    "tipo_persona": "natural",
+    "categoria": "Diseño gráfico",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "MXN",
+      "monto": 18400
+    },
+    "cuenta_registrada": "4407",
+    "contactos": [
+      "ana.rios@example.com"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B10",
+    "nombre": "Andrés Felipe Rojas",
+    "id_fiscal": "C.C. 1.019.876.543",
+    "pais": "CO",
+    "tipo_persona": "natural",
+    "categoria": "DevOps",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "COP",
+      "monto": 4800000
+    },
+    "cuenta_registrada": "8152",
+    "contactos": [
+      "Andrés Rojas (WhatsApp)"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B11",
+    "nombre": "Kodo Studio S.A.S.",
+    "id_fiscal": "NIT 901.205.668-9",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Desarrollo móvil",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 2600
+    },
+    "cuenta_registrada": "7781",
+    "contactos": [
+      "admin@kodostudio.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B12",
+    "nombre": "Ecos Contenido S.A.S.",
+    "id_fiscal": "NIT 901.334.870-3",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Marketing de contenidos",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 600
+    },
+    "cuenta_registrada": "1460",
+    "contactos": [
+      "hola@ecoscontenido.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B13",
+    "nombre": "Brújula Talento S.A.S.",
+    "id_fiscal": "NIT 901.557.093-4",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Reclutamiento",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "USD",
+      "monto": 2900
+    },
+    "cuenta_registrada": "2384",
+    "contactos": [
+      "finanzas@brujulatalento.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "B14",
+    "nombre": "Sala Ágil Coworking S.A.S.",
+    "id_fiscal": "NIT 901.640.215-0",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Coworking (Bogotá)",
+    "contrato": {
+      "tipo": "fijo_mensual",
+      "moneda": "COP",
+      "monto": 2240000
+    },
+    "cuenta_registrada": "5521",
+    "contactos": [
+      "facturacion@salaagil.example"
+    ],
+    "estado": "activo",
+    "motivo_bloqueo": null
+  },
+  {
+    "id": "X01",
+    "nombre": "Servicios Rápidos Global Ltd.",
+    "id_fiscal": "EIN 86-1102938",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Soporte técnico",
+    "contrato": null,
+    "cuenta_registrada": "3901",
+    "contactos": [
+      "cobros@servrapidos.example"
+    ],
+    "estado": "bloqueado",
+    "motivo_bloqueo": "Contrato terminado en agosto de 2026 por incumplimiento; no se deben pagar nuevas facturas."
+  }
+]

@@ -1,0 +1,564 @@
+{
+  "F01_nube-clara_INV-1001.pdf": {
+    "factura_id": "F01",
+    "canal": "pdf",
+    "recibida": "2026-10-01T08:05",
+    "beneficiario": {
+      "nombre": "Nube Clara Hosting LLC",
+      "id_fiscal": "EIN 87-3315920",
+      "pais": "US"
+    },
+    "contacto": null,
+    "numero_factura": "INV-1001",
+    "fecha_emision": "2026-10-01",
+    "fecha_vencimiento": "2026-10-16",
+    "moneda": "USD",
+    "monto": 850.0,
+    "horas": null,
+    "concepto": "Hosting administrado plan Pro y backups diarios, octubre 2026",
+    "cuenta_destino": "9034",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F02_pixel-andino_PA-2026-10.pdf": {
+    "factura_id": "F02",
+    "canal": "pdf",
+    "recibida": "2026-10-01T10:30",
+    "beneficiario": {
+      "nombre": "Estudio Pixel Andino S.A.S.",
+      "id_fiscal": "NIT 901.482.317-5",
+      "pais": "CO"
+    },
+    "contacto": null,
+    "numero_factura": "PA-2026-10",
+    "fecha_emision": "2026-10-01",
+    "fecha_vencimiento": "2026-10-31",
+    "moneda": "USD",
+    "monto": 2400.0,
+    "horas": null,
+    "concepto": "Diseño UX/UI, retainer mensual octubre 2026",
+    "cuenta_destino": "4821",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F03_carolina-mendez_cuenta-cobro-010.eml": {
+    "factura_id": "F03",
+    "canal": "correo",
+    "recibida": "2026-10-01T09:12",
+    "beneficiario": {
+      "nombre": "Carolina Méndez Ruiz",
+      "id_fiscal": "C.C. 1.032.456.789",
+      "pais": "CO"
+    },
+    "contacto": "carolina.mendez@example.com",
+    "numero_factura": "010",
+    "fecha_emision": "2026-10-01",
+    "fecha_vencimiento": "2026-10-15",
+    "moneda": "COP",
+    "monto": 7680000,
+    "horas": null,
+    "concepto": "Desarrollo backend, prestación de servicios octubre 2026",
+    "cuenta_destino": "1177",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F04_traducciones-maya_TM-455.pdf": {
+    "factura_id": "F04",
+    "canal": "pdf",
+    "recibida": "2026-10-02T11:02",
+    "beneficiario": {
+      "nombre": "Traducciones Maya S.C.",
+      "id_fiscal": "RFC TMA190312KJ4",
+      "pais": "MX"
+    },
+    "contacto": null,
+    "numero_factura": "TM-455",
+    "fecha_emision": "2026-10-02",
+    "fecha_vencimiento": "2026-10-17",
+    "moneda": "MXN",
+    "monto": 27600.0,
+    "horas": null,
+    "concepto": "Traducción y localización ES/EN/PT, octubre 2026",
+    "cuenta_destino": "5502",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F05_javier-ortega_chat.txt": {
+    "factura_id": "F05",
+    "canal": "chat",
+    "recibida": "2026-10-02T08:41",
+    "beneficiario": {
+      "nombre": "Javier Ortega Luna",
+      "id_fiscal": "RFC OELJ880412AB5",
+      "pais": "MX"
+    },
+    "contacto": "Javier Ortega (WhatsApp)",
+    "numero_factura": "JO-2026-10",
+    "fecha_emision": "2026-10-02",
+    "fecha_vencimiento": "2026-10-20",
+    "moneda": "USD",
+    "monto": 1800.0,
+    "horas": null,
+    "concepto": "QA automation, octubre 2026",
+    "cuenta_destino": "7745",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F06_legal-puente_LP-881.pdf": {
+    "factura_id": "F06",
+    "canal": "pdf",
+    "recibida": "2026-10-03T14:20",
+    "beneficiario": {
+      "nombre": "Legal Puente LLC",
+      "id_fiscal": "EIN 85-2247719",
+      "pais": "US"
+    },
+    "contacto": null,
+    "numero_factura": "LP-881",
+    "fecha_emision": "2026-10-03",
+    "fecha_vencimiento": "2026-10-18",
+    "moneda": "USD",
+    "monto": 1200.0,
+    "horas": 8,
+    "concepto": "Revisión de contratos de contratistas en LatAm (8 horas)",
+    "cuenta_destino": "2290",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F07_nube-clara_recordatorio.eml": {
+    "factura_id": "F07",
+    "canal": "correo",
+    "recibida": "2026-10-05T07:58",
+    "beneficiario": {
+      "nombre": "Nube Clara Hosting LLC",
+      "id_fiscal": "EIN 87-3315920",
+      "pais": "US"
+    },
+    "contacto": "billing@nubeclara.example",
+    "numero_factura": "INV-1001",
+    "fecha_emision": "2026-10-01",
+    "fecha_vencimiento": "2026-10-16",
+    "moneda": "USD",
+    "monto": 850.0,
+    "horas": null,
+    "concepto": "Hosting administrado plan Pro y backups diarios, octubre 2026",
+    "cuenta_destino": "9034",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F08_atlas-digital_ATD-0193.eml": {
+    "factura_id": "F08",
+    "canal": "correo",
+    "recibida": "2026-10-06T15:40",
+    "beneficiario": {
+      "nombre": "Consultora Atlas Digital S.A.S.",
+      "id_fiscal": "NIT 901.773.210-5",
+      "pais": "CO"
+    },
+    "contacto": "facturacion@atlasdigital.example",
+    "numero_factura": "ATD-0193",
+    "fecha_emision": "2026-10-06",
+    "fecha_vencimiento": "2026-10-09",
+    "moneda": "USD",
+    "monto": 900.0,
+    "horas": null,
+    "concepto": "Consultoría en automatización de procesos, diagnóstico inicial",
+    "cuenta_destino": "6120",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": [
+      "instruccion_sospechosa"
+    ]
+  },
+  "F09_soporte-nexo_SN-3307.pdf": {
+    "factura_id": "F09",
+    "canal": "pdf",
+    "recibida": "2026-10-06T09:15",
+    "beneficiario": {
+      "nombre": "Soporte Nexo S.A.S.",
+      "id_fiscal": "NIT 900.618.442-0",
+      "pais": "CO"
+    },
+    "contacto": null,
+    "numero_factura": "SN-3307",
+    "fecha_emision": "2026-10-06",
+    "fecha_vencimiento": "2026-10-21",
+    "moneda": "USD",
+    "monto": 2450.0,
+    "horas": null,
+    "concepto": "Mesa de ayuda N1 octubre 2026 más 30 tickets adicionales",
+    "cuenta_destino": "6618",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F10_datos-del-sur_E-0003-00000077.pdf": {
+    "factura_id": "F10",
+    "canal": "pdf",
+    "recibida": "2026-10-07T10:05",
+    "beneficiario": {
+      "nombre": "Datos del Sur S.R.L.",
+      "id_fiscal": "CUIT 30-71634528-5",
+      "pais": "AR"
+    },
+    "contacto": null,
+    "numero_factura": "0003-00000077",
+    "fecha_emision": "2026-10-07",
+    "fecha_vencimiento": "2026-10-22",
+    "moneda": "USD",
+    "monto": 3200.0,
+    "horas": null,
+    "concepto": "Servicios de analítica de datos y tableros, octubre 2026",
+    "cuenta_destino": "3310",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F11_servicios-rapidos_SRG-552.eml": {
+    "factura_id": "F11",
+    "canal": "correo",
+    "recibida": "2026-10-07T16:22",
+    "beneficiario": {
+      "nombre": "Servicios Rápidos Global Ltd.",
+      "id_fiscal": "EIN 86-1102938",
+      "pais": "US"
+    },
+    "contacto": "cobros@servrapidos.example",
+    "numero_factura": "SRG-552",
+    "fecha_emision": "2026-10-07",
+    "fecha_vencimiento": "2026-10-14",
+    "moneda": "USD",
+    "monto": 700.0,
+    "horas": null,
+    "concepto": "Soporte técnico remoto, septiembre 2026",
+    "cuenta_destino": "3901",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F12_andres-rojas_chat.txt": {
+    "factura_id": "F12",
+    "canal": "chat",
+    "recibida": "2026-10-08T07:15",
+    "beneficiario": {
+      "nombre": "Andrés Felipe Rojas",
+      "id_fiscal": "C.C. 1.019.876.543",
+      "pais": "CO"
+    },
+    "contacto": "Andrés Rojas (WhatsApp)",
+    "numero_factura": "AR-10",
+    "fecha_emision": "2026-10-08",
+    "fecha_vencimiento": null,
+    "moneda": "COP",
+    "monto": 4800000,
+    "horas": null,
+    "concepto": "Servicios DevOps, octubre 2026",
+    "cuenta_destino": "0093",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.0
+    },
+    "alertas": []
+  },
+  "F13_ana-rios_foto-factura.jpg": {
+    "factura_id": "F13",
+    "canal": "imagen",
+    "recibida": "2026-10-08T19:47",
+    "beneficiario": {
+      "nombre": "Ana Lucía Ríos",
+      "id_fiscal": "RFC RIRA910726QX7",
+      "pais": "MX"
+    },
+    "contacto": null,
+    "numero_factura": "A-0042",
+    "fecha_emision": "2026-10-08",
+    "fecha_vencimiento": "2026-10-23",
+    "moneda": "MXN",
+    "monto": 18400.0,
+    "horas": null,
+    "concepto": "Diseño gráfico de piezas para campaña, octubre 2026",
+    "cuenta_destino": "4407",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.52,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F14_kodo-studio_KS-1290.pdf": {
+    "factura_id": "F14",
+    "canal": "pdf",
+    "recibida": "2026-10-09T12:30",
+    "beneficiario": {
+      "nombre": "Kodo Studio S.A.S.",
+      "id_fiscal": "NIT 901.205.668-9",
+      "pais": "CO"
+    },
+    "contacto": null,
+    "numero_factura": "KS-1290",
+    "fecha_emision": "2026-10-09",
+    "fecha_vencimiento": "2026-10-24",
+    "moneda": "USD",
+    "monto": 12400.0,
+    "horas": null,
+    "concepto": "Desarrollo app móvil v2, hito 1 de 2 (50 %)",
+    "cuenta_destino": "7781",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F15_legal-puente_LP-902.pdf": {
+    "factura_id": "F15",
+    "canal": "pdf",
+    "recibida": "2026-10-10T09:00",
+    "beneficiario": {
+      "nombre": "Legal Puente LLC",
+      "id_fiscal": "EIN 85-2247719",
+      "pais": "US"
+    },
+    "contacto": null,
+    "numero_factura": "LP-902",
+    "fecha_emision": "2026-10-10",
+    "fecha_vencimiento": "2026-10-25",
+    "moneda": "USD",
+    "monto": 1500.0,
+    "horas": 10,
+    "concepto": "Cláusulas de cesión de propiedad intelectual para contratistas (10 horas)",
+    "cuenta_destino": "2290",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F16_legal-puente_LP-915.eml": {
+    "factura_id": "F16",
+    "canal": "correo",
+    "recibida": "2026-10-12T17:35",
+    "beneficiario": {
+      "nombre": "Legal Puente LLC",
+      "id_fiscal": "EIN 85-2247719",
+      "pais": "US"
+    },
+    "contacto": "accounts@legalpuente.example",
+    "numero_factura": "LP-915",
+    "fecha_emision": "2026-10-12",
+    "fecha_vencimiento": "2026-10-27",
+    "moneda": "USD",
+    "monto": 1800.0,
+    "horas": 12,
+    "concepto": "Asesoría adicional en contratos internacionales (12 horas)",
+    "cuenta_destino": "2290",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F17_ecos-contenido_EC-0610.png": {
+    "factura_id": "F17",
+    "canal": "imagen",
+    "recibida": "2026-10-13T08:10",
+    "beneficiario": {
+      "nombre": "Ecos Contenido S.A.S.",
+      "id_fiscal": "NIT 901.334.870-3",
+      "pais": "CO"
+    },
+    "contacto": null,
+    "numero_factura": "EC-0610",
+    "fecha_emision": "2026-10-13",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "USD",
+    "monto": 600.0,
+    "horas": null,
+    "concepto": "Plan de contenidos LinkedIn y blog, octubre 2026",
+    "cuenta_destino": "1460",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F18_brujula-talento_BT-0088.pdf": {
+    "factura_id": "F18",
+    "canal": "pdf",
+    "recibida": "2026-10-13T15:45",
+    "beneficiario": {
+      "nombre": "Brújula Talento S.A.S.",
+      "id_fiscal": "NIT 901.557.093-4",
+      "pais": "CO"
+    },
+    "contacto": null,
+    "numero_factura": "BT-0088",
+    "fecha_emision": "2026-10-13",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "USD",
+    "monto": 2900.0,
+    "horas": null,
+    "concepto": "Reclutamiento de un desarrollador senior, fee mensual octubre 2026",
+    "cuenta_destino": "2384",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F19_javier-ortega_chat.txt": {
+    "factura_id": "F19",
+    "canal": "chat",
+    "recibida": "2026-10-14T18:02",
+    "beneficiario": {
+      "nombre": "Javier Ortega Luna",
+      "id_fiscal": "RFC OELJ880412AB5",
+      "pais": "MX"
+    },
+    "contacto": "Javier Ortega (WhatsApp)",
+    "numero_factura": "JO-2026-10B",
+    "fecha_emision": "2026-10-14",
+    "fecha_vencimiento": "2026-10-20",
+    "moneda": "USD",
+    "monto": 1800.0,
+    "horas": null,
+    "concepto": "QA automation, octubre 2026",
+    "cuenta_destino": "7745",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  },
+  "F20_sala-agil_SA-2210.eml": {
+    "factura_id": "F20",
+    "canal": "correo",
+    "recibida": "2026-10-15T10:20",
+    "beneficiario": {
+      "nombre": "Sala Ágil Coworking S.A.S.",
+      "id_fiscal": "NIT 901.640.215-0",
+      "pais": "CO"
+    },
+    "contacto": "facturacion@salaagil.example",
+    "numero_factura": "SA-2210",
+    "fecha_emision": "2026-10-15",
+    "fecha_vencimiento": "2026-10-30",
+    "moneda": "COP",
+    "monto": 2240000,
+    "horas": null,
+    "concepto": "Membresía coworking, 4 puestos fijos, octubre 2026 (IVA incluido)",
+    "cuenta_destino": "5521",
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.95
+    },
+    "alertas": []
+  }
+}

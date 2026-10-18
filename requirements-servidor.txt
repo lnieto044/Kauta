@@ -1,0 +1,25 @@
+# Kauta · servidor web (FastAPI) y núcleo del agente
+fastapi>=0.120
+uvicorn[standard]>=0.32
+sqlalchemy>=2.0
+pydantic>=2.8
+python-multipart>=0.0.12
+argon2-cffi>=23.1
+cryptography>=43
+pyotp>=2.9
+segno>=1.6
+defusedxml>=0.7
+pypdf>=5.0
+pypdfium2>=4.0
+pillow>=10.0
+reportlab>=4.0
+anthropic>=1.0
+psycopg[binary]>=3.2   # solo si se usa PostgreSQL (docker-compose)
+# Opcional: leer el QR fiscal de imágenes y PDF sin enlace
+# opencv-python-headless>=4.10
+#
+# El lector local (OCR) usa Tesseract, que NO es un paquete de Python: se instala en el sistema.
+#   Debian/Ubuntu:  sudo apt-get install -y tesseract-ocr tesseract-ocr-spa tesseract-ocr-eng
+#   macOS (brew):   brew install tesseract tesseract-lang
+#   Windows:        https://github.com/UB-Mannheim/tesseract/wiki  (marque español e inglés)
+# Si no está instalado, Kauta sigue funcionando: lee XML fiscal, el texto de los PDF y, con clave, con IA.

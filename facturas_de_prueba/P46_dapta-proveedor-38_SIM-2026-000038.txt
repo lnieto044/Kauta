@@ -1,0 +1,13 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Hola, les comparto la factura SIM-2026-000038 de servicios de adquisición de clientes.
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Fecha de emisión: 02/11/2026.
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Detalle de los ítems:
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): • SIM-SKU-38-1 · Servicios de adquisición de clientes: 2.50 campañas × USD 3,500.00 = USD 8,750.00
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): • SIM-SKU-38-2 · Configuración, entrega o reporte asociado: 1 servicios × USD 180.00 = USD 180.00
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): • SIM-SKU-38-3 · Soporte y control de calidad: 2 horas × USD 55.00 = USD 110.00
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Subtotal USD 9,040.00 · impuesto 5 % USD 452.00 · retención 4 % USD 361.60
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Total a pagar: USD 9,130.40
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Vence el 01/02/2027. Orden de compra SIM-OC-38. Pago a la cuenta registrada terminada en 3509.
+[03/11/26, 15:26] SIM Dapta Proveedor 38 (facturación): Identificación: EIN 87-1535489.
+[03/11/26, 15:26] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

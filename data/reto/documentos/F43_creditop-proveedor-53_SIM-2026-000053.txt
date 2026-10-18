@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Hola, les comparto la factura SIM-2026-000053 de asesoría contractual.
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Detalle de los ítems:
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): • SIM-SKU-53-1 · Asesoría contractual: 37.50 horas × USD 160.00 = USD 6,000.00
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): • SIM-SKU-53-2 · Configuración, entrega o reporte asociado: 1 servicios × USD 180.00 = USD 180.00
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): • SIM-SKU-53-3 · Soporte y control de calidad: 2 horas × USD 55.00 = USD 110.00
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Subtotal USD 6,290.00
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Total a pagar: USD 6,290.00
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Vence el 17/11/2026. Orden de compra SIM-OC-53. Pago a la cuenta registrada terminada en 4064.
+[19/09/26, 14:11] SIM Creditop Proveedor 53 (facturación): Identificación: EIN 86-1654274.
+[19/09/26, 14:11] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

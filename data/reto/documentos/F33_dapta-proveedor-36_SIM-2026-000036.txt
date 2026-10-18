@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Hola, les comparto la factura SIM-2026-000036 de licencias de productividad.
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Detalle de los ítems:
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): • SIM-SKU-36-1 · Licencias de productividad: 27,50 licencias × EUR 25,76 = EUR 708,40
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): • SIM-SKU-36-2 · Configuración, entrega o reporte asociado: 1 servicios × EUR 165,60 = EUR 165,60
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): • SIM-SKU-36-3 · Soporte y control de calidad: 2 horas × EUR 50,60 = EUR 101,20
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Subtotal EUR 975,20 · impuesto 8 % EUR 78,02 · anticipo aplicado EUR 210,64
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Total a pagar: EUR 842,58
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Vence el 02/12/2026. Orden de compra SIM-OC-36. Pago a la cuenta registrada terminada en 3435.
+[20/09/26, 13:12] SIM Dapta Proveedor 36 (facturación): Identificación: NIF B46128556.
+[20/09/26, 13:12] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

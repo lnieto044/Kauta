@@ -1,0 +1,221 @@
+﻿archivo,campo,tipo_dato,unidad_formato,definicion_regla,ejemplo,agregacion
+facturas.csv,dato_sintetico,texto,SI,"Todas las cifras, contrapartes y condiciones son ficticias.",SI,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_corte,fecha,AAAA-MM-DD,Fecha fija de la simulación; no corresponde a un cierre real.,2026-11-02,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,factura_id,texto,clave,Identificador único; unir detalle y alternativas mediante esta columna.,SIM-H1-A,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,numero_factura,texto,identificador,Número de factura ficticio; no es un documento fiscal válido.,SIM-2026-000001,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,direccion_factura,texto,categoría,POR_PAGAR significa salida; POR_COBRAR significa entrada para la entidad.,POR_PAGAR,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,empresa_referencia,texto,categoría,Nombre de la imagen usado únicamente como referencia de perfil.,Dapta,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,perfil_operativo,texto,categoría,Actividad resumida de la imagen y conversación; no valida relaciones comerciales.,Software y agentes de IA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,entidad_id,texto,clave,Entidad simulada propietaria de la obligación; unir con entidades_caja.,SIM-DAPTA-H1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,entidad_nombre,texto,nombre,Nombre expresamente simulado; no es razón social verificada.,SIM Dapta Caso H1 LLC,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,entidad_pais,texto,ISO-2,Jurisdicción supuesta de la entidad.,US,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contraparte_id,texto,clave,Proveedor o cliente sintético.,SIM-CP-0001,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contraparte_nombre,texto,nombre,Proveedor emisor en POR_PAGAR; cliente receptor en POR_COBRAR.,SIM Asesoría Profesional Atlas,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contraparte_pais,texto,ISO-2,País hipotético de la contraparte.,US,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contraparte_identificacion,texto,identificador,"Identificador SIM; no es NIT, EIN ni RFC real.",SIM-ID-00000001,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contraparte_contacto,texto,correo,Dominio reservado .example; no enviar comunicaciones.,contraparte-1@datos-sinteticos.example,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,rol_contraparte,texto,categoría,PROVEEDOR o CLIENTE respecto de la entidad simulada.,PROVEEDOR,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,categoria,texto,categoría,Categoría de gasto o ingreso para agrupar facturas.,SERVICIOS_PROFESIONALES,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,subcategoria,texto,categoría,Concepto principal del documento.,Asesoría y operación especializada,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,descripcion_factura,texto,descripción,Resumen de todos los conceptos cobrados; detalle cuantitativo en detalle_factura.,Asesoría y operación especializada; Implementación y cierre del servicio,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,clasificacion_contable,texto,categoría,"OPEX, CAPEX o INGRESO; asignación sintética.",OPEX,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,centro_costo,texto,identificador,Centro responsable; en cuentas por cobrar representa unidad comercial.,SIM-DAPTA-OPS,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,activo_proyecto_id,texto,identificador,Propiedad o proyecto simulado al que se imputa el documento.,SIM-PRY-DAPTA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,contrato_id,texto,identificador,Referencia ficticia del contrato.,SIM-CTR-1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,orden_compra_id,texto,identificador,Orden de compra para facturas por pagar; vacío si no aplica.,SIM-OC-1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,moneda_factura,texto,ISO-4217,Todos los importes sin sufijo USD de esta tabla están en esta moneda.,USD,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,unidades_moneda_por_usd,decimal,moneda/USD,Tipo de cambio sintético de referencia: importe local dividido por esta tasa da USD.,1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_tipo_cambio,fecha,AAAA-MM-DD,Fecha de la tasa de referencia; no es cotización de mercado.,2026-11-02,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_emision,fecha,AAAA-MM-DD,Fecha simulada de emisión.,2026-10-13,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,periodo_servicio_inicio,fecha,AAAA-MM-DD,Inicio del servicio facturado.,2026-09-13,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,periodo_servicio_fin,fecha,AAAA-MM-DD,Fin del servicio facturado.,2026-10-12,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_recepcion,fecha,AAAA-MM-DD,Recepción simulada del documento.,2026-10-14,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_vencimiento,fecha,AAAA-MM-DD,Vencimiento contractual de referencia.,2026-11-02,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,plazo_pago_dias,entero,días,Días naturales entre emisión y vencimiento.,20,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,dias_al_vencimiento,entero,días,Vencimiento menos fecha de corte; negativo identifica vencida.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,estado_documento,texto,categoría,"APROBADA, PENDIENTE_APROBACION, EN_DISPUTA o EMITIDA_POR_COBRAR.",APROBADA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,tipo_documento,texto,categoría,FACTURA_COMERCIAL_SIMULADA; no tiene validez tributaria.,FACTURA_COMERCIAL_SIMULADA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,numero_lineas,entero,líneas,Cantidad de registros asociados en detalle_factura.,2,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,subtotal_bruto,decimal,moneda_factura,Suma de cantidad por precio unitario antes de descuentos e impuestos.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,descuento_comercial_valor,decimal,moneda_factura,Descuento ya incorporado en las líneas; no sumarlo como ahorro nuevo de Kauta.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,base_imponible,decimal,moneda_factura,Subtotal bruto menos descuento comercial; incluye conceptos adicionales como líneas.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,impuesto_nombre,texto,categoría,IMPUESTO_SIMULADO o SIN_IMPUESTOS_EN_EJEMPLO; no define tratamiento legal.,SIN_IMPUESTOS_EN_EJEMPLO,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,tasa_impuesto_pct,decimal,puntos porcentuales,16 significa 16 por ciento; aplicada a cada base de línea con redondeo.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,impuesto_valor,decimal,moneda_factura,Suma de impuestos por línea.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,retencion_nombre,texto,categoría,RETENCION_SIMULADA o SIN_RETENCION; supuesto didáctico.,SIN_RETENCION,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,tasa_retencion_pct,decimal,puntos porcentuales,Retención sobre la base de línea; no es descuento ni ahorro.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,retencion_valor,decimal,moneda_factura,Importe separado del pago a contraparte y destinado a autoridad en esta simulación.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,total_factura_bruto,decimal,moneda_factura,Base imponible más impuesto; no incluye comisiones bancarias.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,neto_contraparte_original,decimal,moneda_factura,Total factura bruto menos retención.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,anticipo_aplicado,decimal,moneda_factura,"Pago o cobro anterior aplicado al neto; reduce saldo, no el costo original.",0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,saldo_contraparte,decimal,moneda_factura,Neto contraparte original menos anticipo aplicado.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,retencion_pendiente,decimal,moneda_factura,Retención aún pendiente de entregar a autoridad para POR_PAGAR; cero en POR_COBRAR.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_entrega_retencion,fecha,AAAA-MM-DD,Fecha supuesta de entrega a autoridad; vacía si no hay retención pendiente.,2026-12-12,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,caja_total_pendiente,decimal,moneda_factura,Saldo contraparte más retención pendiente; no incluye comisiones de transferencia.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,total_factura_bruto_usd,decimal,USD,Total bruto dividido por unidades_moneda_por_usd.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,saldo_contraparte_usd,decimal,USD,Saldo contraparte convertido a la tasa de referencia.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,retencion_pendiente_usd,decimal,USD,Retención pendiente convertida a USD.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,caja_total_pendiente_usd,decimal,USD,Saldo contraparte USD más retención pendiente USD.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,impuesto_recuperable_pct,decimal,puntos porcentuales,Supuesto contable de recuperación; no determina disponibilidad de caja.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,costo_contable_estimado_usd,decimal,USD,"En POR_PAGAR: base más impuesto no recuperable, dividido por tasa. Vacío en ingresos.",60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,costo_directo_venta_estimado_usd,decimal,USD,Costo directo sintético asociado al ingreso; vacío en POR_PAGAR.,1078,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,margen_bruto_estimado_pct,decimal,puntos porcentuales,Solo POR_COBRAR: (base USD menos costo directo) dividido por base USD.,72,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,monto_orden_compra_usd,decimal,USD,Presupuesto de OC sintético comparable con base imponible USD; vacío si no aplica.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,desviacion_orden_compra_usd,decimal,USD,Base imponible USD menos monto OC; positivo indica exceso.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_recepcion_bien_servicio,fecha,AAAA-MM-DD,Aceptación o recepción supuesta; no prueba prestación real.,2026-10-15,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,criticidad,texto,categoría,"ALTA, MEDIA o BAJA; describe continuidad operativa del supuesto.",MEDIA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,responsable_aprobacion,texto,rol,Rol financiero propuesto; no persona real.,RESPONSABLE_FINANCIERO_SIMULADO,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,condiciones_pago_texto,texto,descripción,Condiciones simuladas legibles y alcance de las oportunidades.,"Prórroga a día 30 con recargo único 0.75%; pendiente de negociación en simulación. Habilita descuentos de B, C y D.",Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,descuento_pronto_pago_pct,decimal,puntos porcentuales,Porcentaje potencial adicional sobre base elegible; no acumulativo con otra alternativa.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,fecha_limite_pronto_pago,fecha,AAAA-MM-DD,Última recepción de fondos elegible para descuento; vacía si no aplica.,2026-11-02,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,base_elegible_pronto_pago,decimal,moneda_factura,Base imponible elegible antes de impuestos; cero si no hay descuento.,0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,estado_pronto_pago,texto,categoría,CONFIRMADO_EN_SIMULACION o NO_APLICA; no es confirmación de un proveedor real.,NO_APLICA,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,prorroga_maxima_dias,entero,días,Extensión modelada del vencimiento; requiere aceptación si la opción está pendiente.,30,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,recargo_prorroga_unico_pct,decimal,puntos porcentuales,Recargo por una sola vez sobre el saldo a contraparte; no tasa mensual ni anual.,0.75,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,permite_pago_parcial,texto,SI/NO,Disponibilidad hipotética de pago por hitos.,NO,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,anticipo_hitos_pct,decimal,puntos porcentuales,"Parte inicial de una alternativa por hitos, no anticipo histórico.",0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,moneda_alternativa,texto,ISO-4217,Moneda de liquidación adicional aceptada en el supuesto contractual.,MXN,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,importe_alternativo_sin_descuento,decimal,moneda_alternativa,Importe contractual equivalente antes del pronto pago; vacío si no aplica.,1000000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,grupo_negociacion_id,texto,clave,Vincula obligaciones cuya condición depende de una negociación conjunta.,SIM-NEG-H1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,escenario_historia_id,texto,clave,"H1, H2 o H3 para las historias anteriores; GENERAL para registros exploratorios.",H1,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,opcion_base_id,texto,clave,Alternativa contractual base; vacía para POR_COBRAR.,SIM-H1-A-BASE,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,opcion_menor_costo_modelado_id,texto,clave,"Mínimo costo entre opciones modeladas, sin demostrar factibilidad de caja ni aceptación.",SIM-H1-A-BASE,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,costo_base_pendiente_usd,decimal,USD,"Costo pendiente base incluyendo contraparte, retenciones y comisiones de ruta.",60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,costo_menor_modelado_usd,decimal,USD,Menor costo modelado de esa factura; no sumar sin comprobar dependencias.,60000,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,ahorro_individual_potencial_usd,decimal,USD,"Costo base menos mínimo modelado; condicionado a vigencia, aprobación y caja.",0,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,requiere_revision,texto,SI/NO,"SI para disputas, pendientes o exceso de OC; bloquea ejecución automática propuesta.",NO,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,motivo_revision,texto,descripción,Motivo específico de la revisión.,Falta aprobación del responsable,Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+facturas.csv,observaciones_analista,texto,descripción,"Supuestos relevantes, alcance y restricciones para interpretar la factura.","Todos los importes, tasas, contrapartes y condiciones son sintéticos. Impuestos y retenciones son supuestos didácticos sin validez normativa.",Una fila por factura. Separar POR_PAGAR y POR_COBRAR; sumar monedas iguales o columnas USD.
+detalle_factura.csv,dato_sintetico,texto,SI,Registro completamente ficticio.,SI,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,factura_id,texto,clave,Unión con facturas; los totales de cabecera no se repiten en las líneas.,SIM-H1-A,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,linea_id,texto,clave,Identificador único de la línea.,SIM-H1-A-L1,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,numero_linea,entero,orden,Orden del concepto dentro del documento.,1,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,sku_servicio,texto,identificador,Código sintético del concepto cobrado.,SIM-SKU-1-1,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,descripcion_concepto,texto,descripción,"Qué producto, trabajo, comisión o servicio se está cobrando.",Asesoría y operación especializada,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,unidad_medida,texto,unidad,"Horas, meses, licencias, minutos, documentos, lotes u otras unidades de cobro.",horas,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,cantidad,decimal,unidad_medida,Cantidad facturada.,40,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,precio_unitario,decimal,moneda_factura/unidad,Tarifa antes de descuentos e impuestos.,1000,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,moneda_factura,texto,ISO-4217,Moneda de todos los importes de la línea.,USD,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,importe_bruto_linea,decimal,moneda_factura,"Cantidad multiplicada por precio unitario, redondeada a dos decimales.",40000,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,descuento_comercial_pct,decimal,puntos porcentuales,Descuento incorporado en factura; separado del pronto pago.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,descuento_comercial_linea,decimal,moneda_factura,Importe bruto por descuento comercial.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,base_neta_linea,decimal,moneda_factura,Importe bruto menos descuento comercial.,40000,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,tasa_impuesto_pct,decimal,puntos porcentuales,Tasa sintética aplicada a la base neta.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,impuesto_linea,decimal,moneda_factura,Base neta por tasa de impuesto; redondeo por línea.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,tasa_retencion_pct,decimal,puntos porcentuales,Tasa sintética de retención sobre base neta.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,retencion_linea,decimal,moneda_factura,Importe retenido; no es descuento comercial.,0,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,total_bruto_linea,decimal,moneda_factura,Base neta más impuesto.,40000,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,neto_contraparte_linea,decimal,moneda_factura,Total bruto menos retención; antes de anticipos históricos.,40000,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,periodo_servicio_inicio,fecha,AAAA-MM-DD,Inicio del servicio cobrado.,2026-09-13,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,periodo_servicio_fin,fecha,AAAA-MM-DD,Fin del servicio cobrado.,2026-10-12,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,centro_costo,texto,identificador,Centro de costo o unidad comercial de la factura.,SIM-DAPTA-OPS,Sumar importes por factura; no duplicar cabeceras al unir.
+detalle_factura.csv,activo_proyecto_id,texto,identificador,Proyecto o inmueble al que se asigna el concepto.,SIM-PRY-DAPTA,Sumar importes por factura; no duplicar cabeceras al unir.
+alternativas_pago.csv,dato_sintetico,texto,SI,Alternativa ficticia para análisis.,SI,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,opcion_id,texto,clave,Unión desde factura o evento de ruta.,SIM-H1-A-BASE,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,factura_id,texto,clave,Factura a la que pertenece la alternativa.,SIM-H1-A,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,entidad_id,texto,clave,Entidad que debe pagar con sus propios fondos.,SIM-DAPTA-H1,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,empresa_referencia,texto,categoría,Perfil empresarial de referencia.,Dapta,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,escenario_historia_id,texto,clave,"H1, H2, H3 o GENERAL.",H1,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,tipo_opcion,texto,categoría,"BASE, PRONTO_PAGO, PRORROGA, MONEDA_LOCAL, MONEDA_LOCAL_PRONTO o HITOS_VOLUMEN.",BASE,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,estado_condicion,texto,categoría,CONFIRMADA_EN_SIMULACION o PENDIENTE_NEGOCIACION_EN_SIMULACION.,CONFIRMADA_EN_SIMULACION,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,descripcion_opcion,texto,descripción,Condiciones de la alternativa.,Pago contractual de referencia; no incorpora beneficios nuevos.,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,grupo_dependencia_id,texto,clave,Grupo que debe cumplirse completo para obtener la condición.,SIM-NEG-H1,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,fecha_pago_inicial,fecha,AAAA-MM-DD,Fecha prevista de recepción del primer pago; cotizaciones futuras son supuestos.,2026-11-02,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,fecha_pago_final,fecha,AAAA-MM-DD,Fecha de recepción del último pago.,2026-11-02,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,fecha_limite_condicion,fecha,AAAA-MM-DD,Última fecha para aceptar o recibir pago según el supuesto.,2026-11-02,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,moneda_factura,texto,ISO-4217,Moneda original de la obligación.,USD,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,moneda_liquidacion,texto,ISO-4217,Moneda que recibe el beneficiario bajo la alternativa.,USD,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,descuento_base_pct,decimal,puntos porcentuales,Descuento adicional sobre base imponible elegible; no se aplica a anticipos históricos.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,descuento_base_valor,decimal,moneda_factura,Reducción de base por descuento; ajuste hipotético adicional a factura original.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,ajuste_impuesto_descuento,decimal,moneda_factura,"Impuesto original menos impuesto recalculado tras descuento, redondeado por línea.",0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,ajuste_retencion_descuento,decimal,moneda_factura,Retención original menos retención recalculada tras descuento.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,recargo_unico_pct,decimal,puntos porcentuales,Recargo por una sola vez sobre saldo a contraparte.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,recargo_valor,decimal,moneda_factura,Recargo sintético sin impuesto adicional en el modelo.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,saldo_contraparte_ajustado,decimal,moneda_factura,"Saldo original menos descuento y ajuste de impuesto, más ajuste de retención y recargo.",60000,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,retencion_pendiente_ajustada,decimal,moneda_factura,Retención que quedaría por entregar a autoridad tras el descuento.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,importe_beneficiario_moneda_liquidacion,decimal,moneda_liquidacion,"Importe total neto que recibe la contraparte, sumando tramos.",60000,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,unidades_liquidacion_por_usd,decimal,moneda/USD,Divisor para convertir la liquidación a USD.,1,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,fecha_cotizacion_simulada,fecha,AAAA-MM-DD,Fecha sintética de referencia; no es cotización real o reservada.,2026-11-02,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,vigencia_cotizacion_minutos,entero,minutos,Ventana hipotética para ejecutar; revalidar al pagar.,15,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,riel_pago,texto,categoría,Mecanismo de pago supuesto; no implica habilitación real en Blinka.,ACH,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,numero_transferencias,entero,transferencias,Número de pagos a contraparte; retenciones se programan por separado.,1,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,comision_fija_por_transferencia_usd,decimal,USD,Cargo fijo sintético por cada transferencia a contraparte.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,comision_variable_pct,decimal,puntos porcentuales,Cargo variable sobre importe beneficiario convertido a USD.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,comisiones_totales_usd,decimal,USD,Fijo por cantidad más comisión variable; no está incluido en total de factura.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,principal_beneficiario_usd,decimal,USD,"Importe beneficiario dividido por tasa, redondeado a dos decimales.",60000,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,retencion_pendiente_usd,decimal,USD,Retención pendiente ajustada convertida a USD a tasa original.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,costo_total_pendiente_usd,decimal,USD,Beneficiario USD más retención pendiente USD más comisiones.,60000,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,desembolso_inicial_usd,decimal,USD,Primer pago a contraparte más su comisión; no incluye retenciones separadas.,60000,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,desembolso_final_usd,decimal,USD,"Último pago más comisión, cero si solo existe una transferencia.",0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,anticipo_hitos_pct,decimal,puntos porcentuales,Porción de principal pagada en primer tramo cuando hay dos pagos.,100,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,dias_extension_vencimiento,entero,días,Diferencia entre fecha de pago final y vencimiento original; negativo significa anticipación.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,ahorro_vs_base_usd,decimal,USD,Costo base pendiente menos costo de esta opción; negativo representa sobrecosto.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,ahorro_vs_base_pct,decimal,puntos porcentuales,Ahorro dividido por costo base pendiente; no sumar porcentajes entre facturas.,0,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,es_menor_costo_individual,texto,SI/NO,"Señala mínimo aritmético de opciones, sin resolver restricciones de cartera.",SI,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,requiere_aprobacion_humana,texto,SI/NO,"SI para negociación, cambio de moneda, hitos o documento bloqueado.",NO,Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,restricciones,texto,descripción,Condiciones y dependencias que deben verificarse antes de ejecutar.,"Verificar aprobación, vigencia, saldo y llegada de fondos. ",Opciones excluyentes por factura; no sumar opciones.
+alternativas_pago.csv,tratamiento_ajuste_fiscal,texto,descripción,"Supuesto de ajuste proporcional de base, impuesto y retención; no es instrucción fiscal.",Sin ajuste fiscal adicional.,Opciones excluyentes por factura; no sumar opciones.
+entidades_caja.csv,dato_sintetico,texto,SI,Entidad y valores ficticios.,SI,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,entidad_id,texto,clave,Clave de entidad; separar siempre la caja por esta columna.,SIM-BRICKSAVE-GENERAL,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,empresa_referencia,texto,categoría,Empresa usada como referencia de perfil.,Bricksave,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,entidad_nombre,texto,nombre,Razón social simulada.,SIM Bricksave Operativa LLC,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,pais,texto,ISO-2,Jurisdicción hipotética.,US,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,moneda_caja,texto,ISO-4217,USD en todas las entidades para comparar rutas.,USD,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,fecha_saldo_inicial,fecha,AAAA-MM-DD,Fecha de inicio de la simulación.,2026-11-02,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,saldo_inicial_usd,decimal,USD,Saldo único por entidad; no sumar copias tras unir a facturas.,180000,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,reserva_minima_usd,decimal,USD,Importe que no debe consumirse en la ruta.,45000,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,fondos_terceros_restringidos_usd,decimal,USD,Fondos adicionales no utilizables para gastos propios.,0,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,caja_utilizable_inicial_usd,decimal,USD,Saldo inicial menos reserva y fondos restringidos.,135000,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,escenario_historia_id,texto,clave,"H1, H2, H3 o GENERAL; los conjuntos son independientes.",GENERAL,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,politica_transferencia_entre_entidades,texto,descripción,PROHIBIDA_EN_MODELO: ninguna ruta mezcla fondos entre entidades.,PROHIBIDA_EN_MODELO,Una fila por entidad; no duplicar saldos al unir con facturas.
+entidades_caja.csv,observaciones,texto,descripción,Regla y alcance de la caja simulada.,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.,Una fila por entidad; no duplicar saldos al unir con facturas.
+movimientos_ruta.csv,dato_sintetico,texto,SI,Evento de caja hipotético; no es una transacción bancaria.,SI,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,escenario_historia_id,texto,clave,Historia a la que pertenece el evento.,H1,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,ruta_id,texto,clave,Una ruta es una alternativa excluyente; no sumar rutas distintas.,H1-BASE,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,entidad_id,texto,clave,Propietaria de la caja.,SIM-DAPTA-H1,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,evento_id,texto,clave,Identificador único del evento dentro de la ruta.,H1-BASE-EV1,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,fecha_evento,fecha,AAAA-MM-DD,Día simulado del cobro o pago.,2026-11-02,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,orden_mismo_dia,entero,orden,Secuencia explícita para calcular saldos intradía.,1,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,tipo_evento,texto,categoría,PAGO_CONTRAPARTE o COBRO_PREVISTO; cobros previstos no son garantías.,PAGO_CONTRAPARTE,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,factura_id,texto,clave,Factura pagada; vacío en ingreso agregado hipotético sin factura individual.,SIM-H1-A,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,opcion_id,texto,clave,Alternativa aplicada al pago; vacío para cobro.,SIM-H1-A-BASE,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,concepto,texto,descripción,Motivo del movimiento.,SIM-H1-A: BASE,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,principal_usd,decimal,USD,Valor absoluto del principal; comisiones se muestran aparte.,60000,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,comision_usd,decimal,USD,Costo bancario asociado al pago.,0,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,importe_firmado_usd,decimal,USD,Cobro positivo; pago y comisión negativos.,-60000,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,saldo_entidad_despues_usd,decimal,USD,Saldo acumulado exclusivo de esa entidad en esa ruta.,30000,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,reserva_minima_usd,decimal,USD,Reserva única de entidad repetida solo para verificar; no sumar filas.,30000,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,fondos_restringidos_usd,decimal,USD,Fondos de terceros repetidos para verificar; no sumar filas.,0,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,margen_disponible_usd,decimal,USD,Saldo después menos reserva y fondos restringidos.,0,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,cumple_reserva,texto,SI/NO,Comprueba margen no negativo en este evento.,SI,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+movimientos_ruta.csv,estado_dependencia,texto,categoría,CONDICION_SIMULADA o COBRO_PREVISTO_NO_GARANTIZADO.,CONDICION_SIMULADA,Filtrar una sola ruta. Sumar importes firmados; saldos y reservas no se suman.
+resumen_rutas.csv,dato_sintetico,texto,SI,Resultados de una simulación con supuestos fijos.,SI,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,escenario_historia_id,texto,clave,"H1, H2 o H3; historias independientes.",H1,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,ruta_id,texto,clave,Ruta completa; alternativas de una misma historia son excluyentes.,H1-BASE,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,nombre_ruta,texto,descripción,Descripción de la combinación de pagos.,Vencimientos contractuales,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,estado_ruta,texto,categoría,BASE_SIMULADA o PROPUESTA_CONDICIONADA; no representa autorización real.,BASE_SIMULADA,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,numero_entidades,entero,entidades,Cantidad de cajas separadas incluidas.,1,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,numero_facturas,entero,facturas,Obligaciones únicas del universo de la ruta.,4,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,fecha_inicio,fecha,AAAA-MM-DD,Fecha inicial de la historia.,2026-11-02,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,fecha_fin,fecha,AAAA-MM-DD,Fin común de comparación dentro de la historia.,2026-12-02,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,caja_inicial_usd,decimal,USD,"Suma de saldos de entidades, cada una una sola vez.",90000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,reservas_totales_usd,decimal,USD,Suma informativa de reservas; cada entidad se valida por separado.,30000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,cobros_previstos_usd,decimal,USD,Ingresos hipotéticos programados; no incluyen financiación.,60000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,costo_base_universo_usd,decimal,USD,Costo de las mismas obligaciones bajo la ruta base de esa historia.,120000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,costo_ruta_usd,decimal,USD,Total de salidas de pago y comisiones en la ruta.,120000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,ahorro_neto_usd,decimal,USD,Costo base del universo menos costo de ruta.,0,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,ahorro_neto_universo_pct,decimal,puntos porcentuales,Ahorro dividido por costo base de todas las obligaciones incluidas.,0,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,base_facturas_objetivo_usd,decimal,USD,Denominador de obligaciones sobre las que se busca ahorro; H2 excluye equipo invariable.,120000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,ahorro_sobre_objetivo_pct,decimal,puntos porcentuales,Ahorro dividido por base objetivo; no confundir con porcentaje del universo.,0,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,saldo_minimo_consolidado_usd,decimal,USD,Menor saldo conjunto observado; no acredita transferibilidad de fondos.,30000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,saldo_final_usd,decimal,USD,Caja inicial más cobros menos salidas al final del horizonte.,30000,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,minimo_margen_individual_usd,decimal,USD,Menor margen sobre reservas de cualquier entidad durante la ruta.,0,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,cumple_reservas_todas_entidades,texto,SI/NO,Todos los márgenes individuales son no negativos.,SI,Una ruta por historia; no sumar alternativas ni porcentajes.
+resumen_rutas.csv,condiciones_pendientes,texto,descripción,Aceptaciones y cobros de los que depende la ruta.,Cobro previsto de USD 60000 día 25.,Una ruta por historia; no sumar alternativas ni porcentajes.
+diccionario_campos.csv,archivo,texto,nombre CSV,Archivo al que pertenece el campo.,,Metadatos; no sumar.
+diccionario_campos.csv,campo,texto,nombre columna,Nombre exacto del encabezado.,,Metadatos; no sumar.
+diccionario_campos.csv,tipo_dato,texto,tipo,"Texto, entero, decimal o fecha.",,Metadatos; no sumar.
+diccionario_campos.csv,unidad_formato,texto,unidad,"Moneda, puntos porcentuales, clave u otro formato indicado.",,Metadatos; no sumar.
+diccionario_campos.csv,definicion_regla,texto,descripción,Definición y regla de interpretación.,,Metadatos; no sumar.
+diccionario_campos.csv,ejemplo,texto,valor,Primer valor no vacío observado en el archivo sintético.,,Metadatos; no sumar.
+diccionario_campos.csv,agregacion,texto,regla,Restricción de suma y nivel de registro.,,Metadatos; no sumar.

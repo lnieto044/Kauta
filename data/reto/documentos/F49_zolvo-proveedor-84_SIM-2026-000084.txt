@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Hola, les comparto la factura SIM-2026-000084 de consumo de modelos.
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Detalle de los ítems:
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): • SIM-SKU-84-1 · Consumo de modelos: 18,75 millones tokens × COP 588.000 = COP 11.025.000
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): • SIM-SKU-84-2 · Configuración, entrega o reporte asociado: 1 servicios × COP 756.000 = COP 756.000
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): • SIM-SKU-84-3 · Soporte y control de calidad: 2 horas × COP 231.000 = COP 462.000
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Subtotal COP 12.243.000 · impuesto 8 % COP 979.440 · anticipo aplicado COP 2.644.488
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Total a pagar: COP 10.577.952
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Vence el 02/12/2026. Orden de compra SIM-OC-84. Pago a la cuenta registrada terminada en 5211.
+[20/09/26, 13:48] SIM Zolvo Proveedor 84 (facturación): Identificación: NIT 920.797.236-9.
+[20/09/26, 13:48] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

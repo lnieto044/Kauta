@@ -1,0 +1,13 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Hola, les comparto la factura SIM-2026-000060 de extracción documental y modelos.
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Fecha de emisión: 07/11/2026.
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Detalle de los ítems:
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): • SIM-SKU-60-1 · Extracción documental y modelos: 18.000 documentos × EUR 0,20 = EUR 3.600,00
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): • SIM-SKU-60-2 · Configuración, entrega o reporte asociado: 1 servicios × EUR 165,60 = EUR 165,60
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): • SIM-SKU-60-3 · Soporte y control de calidad: 2 horas × EUR 50,60 = EUR 101,20
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Subtotal EUR 3.866,80 · impuesto 16 % EUR 618,69 · retención 2 % EUR 77,33
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Total a pagar: EUR 4.408,16
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Vence el 02/01/2027. Orden de compra SIM-OC-60. Pago a la cuenta registrada terminada en 4323.
+[08/11/26, 13:00] SIM Braven Proveedor 60 (facturación): Identificación: NIF B46214260.
+[08/11/26, 13:00] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

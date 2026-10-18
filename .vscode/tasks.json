@@ -1,0 +1,44 @@
+{
+  // Ctrl+Shift+P → «Tasks: Run Task» para instalar, probar o reiniciar la demo sin escribir comandos.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1 · Instalar dependencias",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m pip install -r requirements.txt",
+      "problemMatcher": [],
+      "group": "build",
+      "presentation": { "clear": true }
+    },
+    {
+      "label": "2 · Correr las pruebas (93)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m pytest -q",
+      "problemMatcher": [],
+      "group": { "kind": "test", "isDefault": true },
+      "presentation": { "clear": true }
+    },
+    {
+      "label": "3 · Arrancar el servidor",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m uvicorn servidor.main:app --port 8000 --reload",
+      "problemMatcher": [],
+      "isBackground": true,
+      "presentation": { "clear": true }
+    },
+    {
+      "label": "4 · Volver la demo al inicio (borra la base y la vuelve a sembrar)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -c \"import shutil,pathlib; p=pathlib.Path('var'); shutil.rmtree(p, ignore_errors=True); print('Listo: al arrancar, Kauta vuelve a crear la demo con las 20 facturas.')\"",
+      "problemMatcher": [],
+      "presentation": { "clear": true }
+    },
+    {
+      "label": "5 · Medir el lector local (OCR)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} scripts/medir_ocr.py",
+      "problemMatcher": [],
+      "presentation": { "clear": true }
+    }
+  ]
+}

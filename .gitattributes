@@ -1,0 +1,16 @@
+# Los documentos de prueba se guardan y se clonan byte a byte: Kauta reconoce cada uno por su huella SHA-256
+# y un PDF con los saltos de línea cambiados (core.autocrlf en Windows) deja de ser el mismo documento.
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.webp   binary
+*.webm   binary
+*.mp3    binary
+*.mp4    binary
+*.woff2  binary
+*.zip    binary
+*.eml    -text
+*.xml    -text
+data/**                -text
+facturas_de_prueba/**  -text

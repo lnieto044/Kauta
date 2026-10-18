@@ -1,0 +1,23 @@
+From: Servicios =?utf-8?q?R=C3=A1pidos?= Global <cobros@servrapidos.example>
+To: Finanzas Brisamar <finanzas@brisamar.example>
+Subject: Invoice SRG-552 - Technical support
+Date: Wed, 07 Oct 2026 16:22:00 -0500
+Message-ID: <8331c338d1d2902e@simulado.example>
+X-Kauta-Nota: Correo simulado para el Hackathon 30X - datos ficticios
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+Hello,
+
+Please remit payment for invoice SRG-552.
+
+Vendor: Servicios Rápidos Global Ltd. (EIN 86-1102938)
+Service: Remote technical support — September 2026
+Invoice date: Oct 7, 2026
+Due date: Oct 14, 2026
+Amount due: $700.00 USD
+Pay to: account ending in 3901
+
+Thank you,
+Accounts Receivable

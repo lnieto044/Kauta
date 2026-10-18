@@ -1,0 +1,752 @@
+[
+  {
+    "id": "D01",
+    "nombre": "SIM Braven Proveedor 59",
+    "id_fiscal": "EIN 84-1701788",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Licencias de gestión de operaciones",
+    "cuenta_registrada": "4286",
+    "contactos": [
+      "contraparte-59@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 1901.2,
+      "referencia": "SIM-OC-59"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0059",
+      "contraparte": "SIM-CP-0059",
+      "empresa": "Braven"
+    }
+  },
+  {
+    "id": "D02",
+    "nombre": "SIM Bricksave Proveedor 12",
+    "id_fiscal": "NIT 913.256.748-1",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Cobertura y administración de póliza",
+    "cuenta_registrada": "2547",
+    "contactos": [
+      "contraparte-12@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "COP",
+      "monto": 12879720.0,
+      "referencia": "SIM-OC-12"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0012",
+      "contraparte": "SIM-CP-0012",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D03",
+    "nombre": "SIM Bricksave Proveedor 13",
+    "id_fiscal": "RFC SBP230214PE6",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Administración de inmueble",
+    "cuenta_registrada": "2584",
+    "contactos": [
+      "contraparte-13@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 70250.12,
+      "referencia": "SIM-OC-13"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0013",
+      "contraparte": "SIM-CP-0013",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D04",
+    "nombre": "SIM Dapta Proveedor 30",
+    "id_fiscal": "NIF B46107130",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Licencias de productividad",
+    "cuenta_registrada": "3213",
+    "contactos": [
+      "contraparte-30@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 900.21,
+      "referencia": "SIM-OC-30"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0030",
+      "contraparte": "SIM-CP-0030",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D05",
+    "nombre": "SIM Bricksave Proveedor 16",
+    "id_fiscal": "CNPJ 33.692.480/0001-58",
+    "pais": "BR",
+    "tipo_persona": "juridica",
+    "categoria": "Cierre contable por entidad",
+    "cuenta_registrada": "2695",
+    "contactos": [
+      "contraparte-16@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "BRL",
+      "monto": 10870.13,
+      "referencia": "SIM-OC-16"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0016",
+      "contraparte": "SIM-CP-0016",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D06",
+    "nombre": "SIM Dapta Proveedor 35",
+    "id_fiscal": "EIN 84-1511732",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Minutos de llamadas",
+    "cuenta_registrada": "3398",
+    "contactos": [
+      "contraparte-35@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 3032.78,
+      "referencia": "SIM-OC-35"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0035",
+      "contraparte": "SIM-CP-0035",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D07",
+    "nombre": "SIM Bricksave Proveedor 11",
+    "id_fiscal": "EIN 84-1321676",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Reparaciones programadas",
+    "cuenta_registrada": "2510",
+    "contactos": [
+      "contraparte-11@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 4694.2,
+      "referencia": "SIM-OC-11"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0011",
+      "contraparte": "SIM-CP-0011",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D08",
+    "nombre": "SIM Bricksave Proveedor 21",
+    "id_fiscal": "NIF B46074991",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Materiales para propiedad",
+    "cuenta_registrada": "2880",
+    "contactos": [
+      "contraparte-21@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 5441.8,
+      "referencia": "SIM-OC-21"
+    },
+    "estado": "bloqueado",
+    "motivo_bloqueo": "Factura SIM-2026-000021 en disputa: diferencia en entregable pendiente de resolución. No se paga hasta resolverla.",
+    "dataset_reto": {
+      "factura": "SIM-FAC-0021",
+      "contraparte": "SIM-CP-0021",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D09",
+    "nombre": "SIM Dapta Proveedor 28",
+    "id_fiscal": "RFC SDP230502KC1",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Procesamiento de modelos de IA",
+    "cuenta_registrada": "3139",
+    "contactos": [
+      "contraparte-28@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 57535.8,
+      "referencia": "SIM-OC-28"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0028",
+      "contraparte": "SIM-CP-0028",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D10",
+    "nombre": "SIM Creditop Proveedor 46",
+    "id_fiscal": "CNPJ 63.322.110/0001-90",
+    "pais": "BR",
+    "tipo_persona": "juridica",
+    "categoria": "Conciliación de transacciones",
+    "cuenta_registrada": "3805",
+    "contactos": [
+      "contraparte-46@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "BRL",
+      "monto": 9636.3,
+      "referencia": "SIM-OC-46"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0046",
+      "contraparte": "SIM-CP-0046",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D11",
+    "nombre": "SIM Braven Proveedor 63",
+    "id_fiscal": "NIT 918.597.927-4",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Procesamiento y almacenamiento",
+    "cuenta_registrada": "4434",
+    "contactos": [
+      "contraparte-63@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "COP",
+      "monto": 16752120.0,
+      "referencia": "SIM-OC-63"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0063",
+      "contraparte": "SIM-CP-0063",
+      "empresa": "Braven"
+    }
+  },
+  {
+    "id": "D12",
+    "nombre": "SIM Creditop Proveedor 47",
+    "id_fiscal": "EIN 88-1606760",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Asesoría contractual",
+    "cuenta_registrada": "3842",
+    "contactos": [
+      "contraparte-47@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 4988.2,
+      "referencia": "SIM-OC-47"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0047",
+      "contraparte": "SIM-CP-0047",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D13",
+    "nombre": "SIM Dapta Proveedor 36",
+    "id_fiscal": "NIF B46128556",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Licencias de productividad",
+    "cuenta_registrada": "3435",
+    "contactos": [
+      "contraparte-36@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 842.58,
+      "referencia": "SIM-OC-36"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0036",
+      "contraparte": "SIM-CP-0036",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D14",
+    "nombre": "SIM Braven Proveedor 61",
+    "id_fiscal": "CNPJ 78.136.925/0001-51",
+    "pais": "BR",
+    "tipo_persona": "juridica",
+    "categoria": "Configuración e integraciones",
+    "cuenta_registrada": "4360",
+    "contactos": [
+      "contraparte-61@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "BRL",
+      "monto": 64985.55,
+      "referencia": "SIM-OC-61"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0061",
+      "contraparte": "SIM-CP-0061",
+      "empresa": "Braven"
+    }
+  },
+  {
+    "id": "D15",
+    "nombre": "SIM Dapta Proveedor 34",
+    "id_fiscal": "RFC SDP141108S11",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Procesamiento de modelos de IA",
+    "cuenta_registrada": "3361",
+    "contactos": [
+      "contraparte-34@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 70217.16,
+      "referencia": "SIM-OC-34"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0034",
+      "contraparte": "SIM-CP-0034",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D16",
+    "nombre": "SIM Bricksave Proveedor 19",
+    "id_fiscal": "RFC SBP140820A38",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Administración de inmueble",
+    "cuenta_registrada": "2806",
+    "contactos": [
+      "contraparte-19@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 79269.6,
+      "referencia": "SIM-OC-19"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0019",
+      "contraparte": "SIM-CP-0019",
+      "empresa": "Bricksave"
+    }
+  },
+  {
+    "id": "D17",
+    "nombre": "SIM Zolvo Proveedor 76",
+    "id_fiscal": "CNPJ 92.951.740/0001-21",
+    "pais": "BR",
+    "tipo_persona": "juridica",
+    "categoria": "Conciliación automatizada",
+    "cuenta_registrada": "4915",
+    "contactos": [
+      "contraparte-76@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "BRL",
+      "monto": 10627.65,
+      "referencia": "SIM-OC-76"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0076",
+      "contraparte": "SIM-CP-0076",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D18",
+    "nombre": "SIM Dapta Proveedor 37",
+    "id_fiscal": "CNPJ 94.433.221/0001-05",
+    "pais": "BR",
+    "tipo_persona": "juridica",
+    "categoria": "Desarrollo e integraciones",
+    "cuenta_registrada": "3472",
+    "contactos": [
+      "contraparte-37@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "BRL",
+      "monto": 61241.25,
+      "referencia": "SIM-OC-37"
+    },
+    "estado": "bloqueado",
+    "motivo_bloqueo": "Factura SIM-2026-000037 en disputa: diferencia en entregable pendiente de resolución. No se paga hasta resolverla.",
+    "dataset_reto": {
+      "factura": "SIM-FAC-0037",
+      "contraparte": "SIM-CP-0037",
+      "empresa": "Dapta"
+    }
+  },
+  {
+    "id": "D19",
+    "nombre": "SIM Creditop Proveedor 45",
+    "id_fiscal": "NIF B46160695",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Cómputo y procesamiento",
+    "cuenta_registrada": "3768",
+    "contactos": [
+      "contraparte-45@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 3968.1,
+      "referencia": "SIM-OC-45"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0045",
+      "contraparte": "SIM-CP-0045",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D20",
+    "nombre": "SIM Zolvo Proveedor 78",
+    "id_fiscal": "NIT 920.168.862-1",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Consumo de modelos",
+    "cuenta_registrada": "4989",
+    "contactos": [
+      "contraparte-78@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "COP",
+      "monto": 10841040.0,
+      "referencia": "SIM-OC-78"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0078",
+      "contraparte": "SIM-CP-0078",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D21",
+    "nombre": "SIM Creditop Proveedor 49",
+    "id_fiscal": "RFC SCP140223MG3",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Consultas de validación de identidad",
+    "cuenta_registrada": "3916",
+    "contactos": [
+      "contraparte-49@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 75536.5,
+      "referencia": "SIM-OC-49"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0049",
+      "contraparte": "SIM-CP-0049",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D22",
+    "nombre": "SIM Creditop Proveedor 51",
+    "id_fiscal": "NIF B46182121",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Cómputo y procesamiento",
+    "cuenta_registrada": "3990",
+    "contactos": [
+      "contraparte-51@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 4496.77,
+      "referencia": "SIM-OC-51"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0051",
+      "contraparte": "SIM-CP-0051",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D23",
+    "nombre": "SIM Creditop Proveedor 53",
+    "id_fiscal": "EIN 86-1654274",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Asesoría contractual",
+    "cuenta_registrada": "4064",
+    "contactos": [
+      "contraparte-53@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 6290.0,
+      "referencia": "SIM-OC-53"
+    },
+    "estado": "bloqueado",
+    "motivo_bloqueo": "Factura SIM-2026-000053 en disputa: diferencia en entregable pendiente de resolución. No se paga hasta resolverla.",
+    "dataset_reto": {
+      "factura": "SIM-FAC-0053",
+      "contraparte": "SIM-CP-0053",
+      "empresa": "Creditop"
+    }
+  },
+  {
+    "id": "D24",
+    "nombre": "SIM Braven Proveedor 66",
+    "id_fiscal": "NIF B46235686",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Extracción documental y modelos",
+    "cuenta_registrada": "4545",
+    "contactos": [
+      "contraparte-66@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 5434.16,
+      "referencia": "SIM-OC-66"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0066",
+      "contraparte": "SIM-CP-0066",
+      "empresa": "Braven"
+    }
+  },
+  {
+    "id": "D25",
+    "nombre": "SIM Zolvo Proveedor 81",
+    "id_fiscal": "NIF B46289251",
+    "pais": "ES",
+    "tipo_persona": "juridica",
+    "categoria": "Validación de facturas y anexos",
+    "cuenta_registrada": "5100",
+    "contactos": [
+      "contraparte-81@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "EUR",
+      "monto": 4954.3,
+      "referencia": "SIM-OC-81"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0081",
+      "contraparte": "SIM-CP-0081",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D26",
+    "nombre": "SIM Zolvo Proveedor 79",
+    "id_fiscal": "RFC SZP140826DC1",
+    "pais": "MX",
+    "tipo_persona": "juridica",
+    "categoria": "Integraciones de datos",
+    "cuenta_registrada": "5026",
+    "contactos": [
+      "contraparte-79@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "MXN",
+      "monto": 187546.52,
+      "referencia": "SIM-OC-79"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0079",
+      "contraparte": "SIM-CP-0079",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D27",
+    "nombre": "SIM Zolvo Proveedor 83",
+    "id_fiscal": "EIN 84-1891844",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Cómputo de procesamiento",
+    "cuenta_registrada": "5174",
+    "contactos": [
+      "contraparte-83@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 5478.57,
+      "referencia": "SIM-OC-83"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0083",
+      "contraparte": "SIM-CP-0083",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D28",
+    "nombre": "SIM Braven Proveedor 69",
+    "id_fiscal": "NIT 919.226.301-7",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Procesamiento y almacenamiento",
+    "cuenta_registrada": "4656",
+    "contactos": [
+      "contraparte-69@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "COP",
+      "monto": 21063000.0,
+      "referencia": "SIM-OC-69"
+    },
+    "estado": "bloqueado",
+    "motivo_bloqueo": "Factura SIM-2026-000069 en disputa: diferencia en entregable pendiente de resolución. No se paga hasta resolverla.",
+    "dataset_reto": {
+      "factura": "SIM-FAC-0069",
+      "contraparte": "SIM-CP-0069",
+      "empresa": "Braven"
+    }
+  },
+  {
+    "id": "D29",
+    "nombre": "SIM Zolvo Proveedor 84",
+    "id_fiscal": "NIT 920.797.236-9",
+    "pais": "CO",
+    "tipo_persona": "juridica",
+    "categoria": "Consumo de modelos",
+    "cuenta_registrada": "5211",
+    "contactos": [
+      "contraparte-84@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "COP",
+      "monto": 10577952.0,
+      "referencia": "SIM-OC-84"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0084",
+      "contraparte": "SIM-CP-0084",
+      "empresa": "Zolvo"
+    }
+  },
+  {
+    "id": "D30",
+    "nombre": "SIM Braven Proveedor 62",
+    "id_fiscal": "EIN 87-1725545",
+    "pais": "US",
+    "tipo_persona": "juridica",
+    "categoria": "Soporte especializado",
+    "cuenta_registrada": "4397",
+    "contactos": [
+      "contraparte-62@datos-sinteticos.example"
+    ],
+    "contrato": {
+      "tipo": "orden_compra",
+      "moneda": "USD",
+      "monto": 7495.2,
+      "referencia": "SIM-OC-62"
+    },
+    "estado": "activo",
+    "motivo_bloqueo": null,
+    "dataset_reto": {
+      "factura": "SIM-FAC-0062",
+      "contraparte": "SIM-CP-0062",
+      "empresa": "Braven"
+    }
+  }
+]

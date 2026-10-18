@@ -1,0 +1,10 @@
+﻿dato_sintetico,entidad_id,empresa_referencia,entidad_nombre,pais,moneda_caja,fecha_saldo_inicial,saldo_inicial_usd,reserva_minima_usd,fondos_terceros_restringidos_usd,caja_utilizable_inicial_usd,escenario_historia_id,politica_transferencia_entre_entidades,observaciones
+SI,SIM-BRICKSAVE-GENERAL,Bricksave,SIM Bricksave Operativa LLC,US,USD,2026-11-02,180000,45000,0,135000,GENERAL,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-DAPTA-GENERAL,Dapta,SIM Dapta Operativa LLC,US,USD,2026-11-02,225000,50000,0,175000,GENERAL,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-CREDITOP-GENERAL,Creditop,SIM Creditop Operativa LLC,US,USD,2026-11-02,270000,55000,35000,180000,GENERAL,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-BRAVEN-GENERAL,Braven,SIM Braven Operativa LLC,US,USD,2026-11-02,315000,60000,0,255000,GENERAL,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-ZOLVO-GENERAL,Zolvo,SIM Zolvo Operativa LLC,US,USD,2026-11-02,360000,65000,0,295000,GENERAL,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-DAPTA-H1,Dapta,SIM Dapta Caso H1 LLC,US,USD,2026-11-02,90000,30000,0,60000,H1,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-BRAVEN-H2,Braven,SIM Braven Caso H2 LLC,US,USD,2026-11-02,105000,10000,0,95000,H2,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-BRICKSAVE-H3-A,Bricksave,SIM Bricksave Propiedad A LLC,US,USD,2026-11-02,32000,12000,0,20000,H3,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.
+SI,SIM-BRICKSAVE-H3-B,Bricksave,SIM Bricksave Propiedad B LLC,US,USD,2026-11-02,25000,10000,0,15000,H3,PROHIBIDA_EN_MODELO,Caja independiente; cifras simuladas; no mezclar escenarios ni financiar otra entidad.

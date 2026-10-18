@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+/*
+  Paleta de la marca Kauta (manual de marca, figura 3): Noche para textos, menú y fondos oscuros;
+  Azul señal para botones y enlaces; y el semáforo de decisiones, que siempre significa lo mismo:
+  Menta = pagar, Ámbar = escalar, Coral = frenar. Pizarra, Bruma y Niebla para texto secundario, bordes y fondos.
+*/
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  --color-noche: #0b1736;
+  --color-noche-2: #142350;
+  --color-noche-3: #1e2f63;
+  --color-menta: #16c79a;
+  --color-menta-t: #0b7a5c;
+  --color-menta-s: #e3f8f1;
+  --color-ambar: #ffb547;
+  --color-ambar-t: #9a5800;
+  --color-ambar-s: #fff4e0;
+  --color-coral: #ff5c5c;
+  --color-coral-t: #c7302f;
+  --color-coral-s: #ffe9e9;
+  --color-azul: #3b5bfd;
+  --color-azul-t: #2a44d6;
+  --color-azul-s: #e8edff;
+  --color-pizarra: #5b6782;
+  --color-bruma: #e3e8f2;
+  --color-niebla: #f5f7fb;
+
+  --text-2xs: 0.6875rem;
+  --radius-panel: 14px;
+}
+
+html {
+  font-feature-settings: "cv11", "ss01", "ss03";
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background: var(--color-niebla);
+  color: var(--color-noche);
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.num {
+  font-variant-numeric: tabular-nums;
+}
+:focus-visible {
+  outline: 2px solid var(--color-azul);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+::selection {
+  background: var(--color-azul-s);
+}
+
+/* Panel de marca del acceso: trama fina sobre Noche */
+.trama {
+  background-color: var(--color-noche);
+  background-image:
+    linear-gradient(rgb(170 182 211 / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(170 182 211 / 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Las 13 reglas se encienden una por una al evaluar */
+@keyframes encender {
+  from {
+    transform: scaleY(0.25);
+    opacity: 0.2;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+.celda-animada {
+  animation: encender 220ms ease-out both;
+  transform-origin: bottom;
+}
+/* La decisión aparece sin efectos: un sello sobrio, sin giros */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sello {
+  animation: aparecer 200ms ease-out both;
+}
+@keyframes avanzar {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.paso-animado {
+  animation: avanzar 220ms ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Menú lateral: la barra de desplazamiento solo aparece al pasar el mouse, fina y del tono de la marca */
+.barra-lateral { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+.barra-lateral:hover, .barra-lateral:focus-within { scrollbar-color: rgb(255 255 255 / 0.22) transparent; }
+.barra-lateral::-webkit-scrollbar { width: 6px; }
+.barra-lateral::-webkit-scrollbar-thumb { background: transparent; border-radius: 3px; }
+.barra-lateral:hover::-webkit-scrollbar-thumb { background: rgb(255 255 255 / 0.22); }

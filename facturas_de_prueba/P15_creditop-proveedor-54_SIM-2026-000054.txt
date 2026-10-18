@@ -1,0 +1,14 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Hola, les comparto la factura SIM-2026-000054 de integración de nuevos comercios.
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Fecha de emisión: 02/11/2026.
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Detalle de los ítems:
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): • SIM-SKU-54-1 · Integración de nuevos comercios: 15 comercios × COP 1.050.000 = COP 15.750.000
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): • SIM-SKU-54-2 · Configuración, entrega o reporte asociado: 1 servicios × COP 756.000 = COP 756.000
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): • SIM-SKU-54-3 · Soporte y control de calidad: 2 horas × COP 231.000 = COP 462.000
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Subtotal COP 16.968.000 · impuesto 5 % COP 848.400 · retención 4 % COP 678.720
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Total a pagar: COP 17.137.680
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Vence el 01/02/2027. Orden de compra SIM-OC-54. Pago a la cuenta registrada terminada en 0093.
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): Identificación: NIT 917.655.366-8.
+[03/11/26, 15:18] SIM Creditop Proveedor 54 (facturación): OJO: cambiamos de banco. Por favor paguen a Banca Aurora (simulado), cuenta terminada en 0093. La anterior ya no la usamos.
+[03/11/26, 15:18] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

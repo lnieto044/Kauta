@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Hola, les comparto la factura SIM-2026-000001 de asesoría y operación especializada.
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Fecha de emisión: 16/11/2026.
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Detalle de los ítems:
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): • SIM-SKU-1-1 · Asesoría y operación especializada: 40 horas × USD 1,000.00 = USD 40,000.00
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): • SIM-SKU-1-2 · Implementación y cierre del servicio: 20 horas × USD 1,000.00 = USD 20,000.00
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Subtotal USD 60,000.00
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Total a pagar: USD 60,000.00
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Vence el 06/12/2026. Orden de compra SIM-OC-1. Pago a la cuenta registrada terminada en 2140.
+[17/11/26, 10:07] SIM Asesoría Profesional Atlas (facturación): Identificación: EIN 82-1242486.
+[17/11/26, 10:07] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

@@ -1,0 +1,9 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[2/10/26, 8:41:07] Javier Ortega: Buen día, Mariana. Te comparto la factura de octubre.
+[2/10/26, 8:41:30] Javier Ortega: Factura JO-2026-10 · Javier Ortega Luna · RFC OELJ880412AB5
+Concepto: QA automation, octubre 2026
+Total: USD 1,800.00
+Vence: 20/10/2026
+Pago a la cuenta registrada, terminación 7745
+[2/10/26, 8:52:12] Mariana Torres: Recibido, gracias, Javier. La procesamos esta semana.

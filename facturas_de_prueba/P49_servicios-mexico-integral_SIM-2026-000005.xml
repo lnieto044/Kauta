@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCUMENTO SIMULADO PARA EL HACKATHON 30X · DATOS FICTICIOS · SIN VALIDEZ FISCAL · SIN FIRMA DIGITAL -->
+<!-- Construido con los ítems de SIM-H2-MX del dataset del reto (facturas.csv y detalle_factura.csv). -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd"
+  Version="4.0" Serie="SIM" Folio="000005" Fecha="2026-11-16T14:35:00" Sello="lb0JvF1N4RPk2ukG7XMOXtIdGELUrfmpIBryUt/DXOI/i2dotvxrkxnGXqoj1QuSlt/dVOg/rseMcE3KTLKaO2Pu1NZ0iPYkEL1lBuHKI1seqjAvASpQoyoiFpoh71bettbpPEsop8gVcbQsy8MHhTKDtX+O7hah5Nis99wF9dEQP2sQ1xAsRGHSlb9PmlKbhqjE7gaTbjS/oIVQUNHh5Dt5fxt5DAbi9NE8QvBOLJC1eL4dWNamhVd8riDyP9J2M4CHl4lsoGxIFKL+RSSztnZhIeb3tv2mYwuPhckxNZAxZ0U99BEP5XyL/M4us1G4BilNnBfrWQuXxvb2sgGP5I==" FormaPago="99"
+  NoCertificado="30001000000500000000" Certificado="AtVpOhSqIHt6HiZb75heXem9UXAZzS/iG4c2yei2VlDNz/LBCN06SLvVXPdx/1uOPoEqiAguCIkiklCUCC2TGRekTiS1cGKCXr5rpX89L/4QKIAsaAdCLcFnD7db3GLbRvcv86bfxwO8716vCgxpQLQwoFA1QonY/sJjtRPV0RxYvJyCSfcdURqHfR/E7Z3KeqUN4bg2UtWFGa8GIjFeNDdSkr4ouw2u5jA/zHnHG8dcz4cPEzi7gHVCmfsQSpNZS2PDbl9ISQD7D4ixRF1d3jCh2epZ0BQP07fDhp9s5lE2O+pqfXGocOLHjo5osyC+tjMXGIS4ldvkkPyyfCIWoOJ9UfvKx990dY3rEzPdXH43kN5YaIqh0Qb6ly6zvJnXa9YEtXwx1zd3ixE9=="
+  CondicionesDePago="Fecha límite de pago: 05/01/2027 · orden de compra SIM-OC-5"
+  SubTotal="50000.00" Moneda="USD" TipoCambio="18.40" Total="50000.00"
+  TipoDeComprobante="I" Exportacion="02" MetodoPago="PPD" LugarExpedicion="06700">
+  <cfdi:Emisor Rfc="SSM150606F66" Nombre="SIM SERVICIOS MÉXICO INTEGRAL" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="BRISAMAR LABS INC" DomicilioFiscalReceptor="06700" ResidenciaFiscal="USA"
+    NumRegIdTrib="884410273" RegimenFiscalReceptor="616" UsoCFDI="S01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="81111500" NoIdentificacion="SIM-SKU-5-1" Cantidad="1" ClaveUnidad="E48" Unidad="proyectos" Descripcion="Servicio especializado contratado" ValorUnitario="45000.00" Importe="45000.00" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="45000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81111500" NoIdentificacion="SIM-SKU-5-2" Cantidad="1" ClaveUnidad="E48" Unidad="paquetes" Descripcion="Soporte y documentación" ValorUnitario="5000.00" Importe="5000.00" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="5000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+    <cfdi:Traslados><cfdi:Traslado Base="50000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="A6345D16-6EDA-5B0D-9FE1-0D4B8DB31252" FechaTimbrado="2026-11-16T14:35:40" RfcProvCertif="PSI150101AB5"
+      SelloCFD="lb0JvF1N4RPk2ukG7XMOXtIdGELUrfmpIBryUt/DXOI/i2dotvxrkxnGXqoj1QuSlt/dVOg/rseMcE3KTLKaO2Pu1NZ0iPYkEL1lBuHKI1seqjAvASpQoyoiFpoh71bettbpPEsop8gVcbQsy8MHhTKDtX+O7hah5Nis99wF9dEQP2sQ1xAsRGHSlb9PmlKbhqjE7gaTbjS/oIVQUNHh5Dt5fxt5DAbi9NE8QvBOLJC1eL4dWNamhVd8riDyP9J2M4CHl4lsoGxIFKL+RSSztnZhIeb3tv2mYwuPhckxNZAxZ0U99BEP5XyL/M4us1G4BilNnBfrWQuXxvb2sgGP5I==" NoCertificadoSAT="00001000000700000000" SelloSAT="Em8lOcvDO+GR1T7V4muEmstvG1jtBZsSrjqmVbPqTX2ZSDrP7uvXXVCltbyRBZDlOS+4cB5Yp58PrwyVgwbdBURA/h6GL6YMwD+gP5o1TrBzsJNbsRWxNB1iZ/bt1QdoaTvEL+3v9ScOu5TstRhMtrq6lWdJJ4iViTpttc6nE5KDH3WEupfgtfi1bnd5VwuDdvMHyivzZc3jAG1fPpqOA/n9xQ4Avqsu1hwGqcaI5iJIPIZT6SlaL+ON6OjX612eoMZavuc9z5lC8XWVKcddUVUHQD3J7YTW2e74STrLbcTQiYXdOtK9WnHmYYb6D0x0CnBqy2/mZD0QJK+KuMFyk9=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,208 @@
+{
+  "finanzas": {
+    "video": "/videos/introduccion-finanzas.webm",
+    "duracion": 208.3,
+    "voz": "es-CO-SalomeNeural",
+    "capitulos": [
+      {
+        "t": 19.3,
+        "titulo": "Resumen",
+        "texto": "¡Este es su resumen, su trabajo del día! Lo que Kauta le pregunta, lo que ya puede pagar y cómo terminó cada pago."
+      },
+      {
+        "t": 29.0,
+        "titulo": "Resumen",
+        "texto": "Y más abajo: los últimos pagos, el presupuesto del mes y por dónde llegan las facturas."
+      },
+      {
+        "t": 37.300000000000004,
+        "titulo": "Facturas",
+        "texto": "En Facturas tiene todo lo que llegó: correo, chat, PDF, foto o XML. ¡Con el canal, cómo se leyó y lo que decidió Kauta!"
+      },
+      {
+        "t": 48.900000000000006,
+        "titulo": "Facturas",
+        "texto": "¿Quiere ver solo los chats? Filtre por canal. Y mire la tira de colores: verde cumple, ámbar pregunta y rojo frena."
+      },
+      {
+        "t": 61.400000000000006,
+        "titulo": "Buzón",
+        "texto": "¡Llegó una factura al buzón! Kauta la lee sin IA, revisa las 13 reglas y decide en segundos."
+      },
+      {
+        "t": 72.9,
+        "titulo": "Buzón",
+        "texto": "¡Esta cumplió todo y Kauta la pagó sola! Y a usted le llega el aviso con el documento adjunto."
+      },
+      {
+        "t": 81.10000000000001,
+        "titulo": "Lectura (OCR)",
+        "texto": "¿Tiene la foto de una factura? Pruébela aquí y vea paso a paso cómo la lee Kauta, sin crear nada."
+      },
+      {
+        "t": 93.10000000000001,
+        "titulo": "Lectura (OCR)",
+        "texto": "¡El OCR la leyó en el servidor! Cada dato con su confianza. Y si algo queda dudoso, Kauta pregunta en vez de adivinar."
+      },
+      {
+        "t": 103.4,
+        "titulo": "Kauta pregunta",
+        "texto": "Ahora, Kauta pregunta: aquí está lo que necesita de usted, con una pregunta clara por cada regla que falló."
+      },
+      {
+        "t": 112.7,
+        "titulo": "Aprobar",
+        "texto": "¡Ojo con esta! La factura F12 pide pagar a una cuenta nueva por chat (R07). Usted llama al proveedor y aprueba con su token."
+      },
+      {
+        "t": 128.39999999999998,
+        "titulo": "Aprobar",
+        "texto": "¡Aprobada! Y queda lista para pagar, siempre a la cuenta registrada, nunca a la del chat."
+      },
+      {
+        "t": 136.39999999999998,
+        "titulo": "Pagos",
+        "texto": "Vamos a Pagos: aquí está lo que falta por pagar. ¡Pulse Pagar!"
+      },
+      {
+        "t": 143.7,
+        "titulo": "Pagar con PayPal",
+        "texto": "Elija cómo pagar: con la ventana de PayPal, donde usted aprueba o rechaza, o con el pago directo. Y pida su token."
+      },
+      {
+        "t": 157.1,
+        "titulo": "Pagar con PayPal",
+        "texto": "¡Se abre PayPal! Con el sandbox conectado, entra con la cuenta de pruebas. Aquí ve la ventana simulada: ¡apruebe el pago!"
+      },
+      {
+        "t": 168.79999999999998,
+        "titulo": "Resultado",
+        "texto": "¡Pago exitoso! Con su línea de tiempo y el comprobante. Y si PayPal lo rechaza, el dinero vuelve solito a la wallet."
+      },
+      {
+        "t": 180.79999999999998,
+        "titulo": "Pagos",
+        "texto": "Cada pago queda ordenado por resultado: exitoso, en proceso, fallido o negado. ¡Y los fallidos se reintentan aquí mismo!"
+      },
+      {
+        "t": 190.7,
+        "titulo": "Wallet",
+        "texto": "Y en la wallet: el dinero por etapas, el libro mayor y la conciliación lista para Excel."
+      }
+    ]
+  },
+  "ceo": {
+    "video": "/videos/introduccion-ceo.webm",
+    "duracion": 142.9,
+    "voz": "es-CO-SalomeNeural",
+    "capitulos": [
+      {
+        "t": 19.2,
+        "titulo": "Resumen",
+        "texto": "Su resumen arranca por lo importante: lo que espera su decisión, el presupuesto y cuánto resuelve Kauta sola."
+      },
+      {
+        "t": 28.0,
+        "titulo": "Impacto",
+        "texto": "¡Y aquí el impacto en la empresa! Lo que vence, la exposición por moneda, los proveedores más grandes y dónde fallan las reglas."
+      },
+      {
+        "t": 39.0,
+        "titulo": "Aprobar lo alto",
+        "texto": "En Kauta pregunta están las facturas que superan el umbral. ¡Esas son suyas!"
+      },
+      {
+        "t": 46.400000000000006,
+        "titulo": "Aprobar lo alto",
+        "texto": "Esta de Legal Puente supera USD 3.000. Revise las reglas, escriba por qué aprueba y confirme con su token."
+      },
+      {
+        "t": 61.5,
+        "titulo": "Aprobar lo alto",
+        "texto": "¡Aprobada! Queda lista para pagar y la paga Finanzas. Así ningún pago grande depende de una sola persona."
+      },
+      {
+        "t": 70.7,
+        "titulo": "Pagos",
+        "texto": "En Pagos ve qué falta por pagar y cómo terminó cada pago. ¡Todo a la vista!"
+      },
+      {
+        "t": 78.2,
+        "titulo": "Rutas de pago",
+        "texto": "¡Rutas de pago! Kauta prueba pronto pago, prórroga, moneda local o pago parcial, y le propone la ruta más barata sin descuadrar la caja."
+      },
+      {
+        "t": 93.9,
+        "titulo": "Rutas de pago",
+        "texto": "¡Y usted la aprueba! Negociaciones y cambios de moneda, con su firma en la auditoría."
+      },
+      {
+        "t": 101.2,
+        "titulo": "Reglas",
+        "texto": "En Reglas manda usted: el umbral, los límites y el presupuesto. Y antes de guardar, Kauta le muestra qué cambiaría."
+      },
+      {
+        "t": 112.7,
+        "titulo": "Rendimiento",
+        "texto": "Rendimiento y costos: cuánto cuesta resolver cada factura, cuánto se lee sin IA y cómo va frente al mes anterior."
+      },
+      {
+        "t": 123.3,
+        "titulo": "Auditoría",
+        "texto": "Y la auditoría: cada decisión, firma y pago encadenados con HMAC. ¡Si alguien toca un registro, se nota!"
+      }
+    ]
+  },
+  "admin": {
+    "video": "/videos/introduccion-admin.webm",
+    "duracion": 110.1,
+    "voz": "es-CO-SalomeNeural",
+    "capitulos": [
+      {
+        "t": 18.7,
+        "titulo": "Resumen",
+        "texto": "Su resumen es la plataforma: personas activas, sesiones, registros nuevos y una auditoría íntegra."
+      },
+      {
+        "t": 27.4,
+        "titulo": "Integraciones",
+        "texto": "¡Y las integraciones! PayPal, el correo, el OCR y la IA, con lo que falta para conectar cada una."
+      },
+      {
+        "t": 39.2,
+        "titulo": "Personas y roles",
+        "texto": "En Personas y roles: quien se registra entra como Finanzas, ¡y usted le cambia el rol con un clic!"
+      },
+      {
+        "t": 47.2,
+        "titulo": "Personas y roles",
+        "texto": "Esta tabla lo deja clarísimo: Finanzas opera y paga, el CEO aprueba lo grande y usted da los accesos."
+      },
+      {
+        "t": 57.900000000000006,
+        "titulo": "Invitar",
+        "texto": "¿Quiere invitar a alguien? Ponga el correo y el rol, y Kauta genera un código de un solo uso."
+      },
+      {
+        "t": 66.2,
+        "titulo": "Seguridad",
+        "texto": "En Seguridad: su contraseña, el segundo factor, las sesiones abiertas ¡y la prueba del correo!"
+      },
+      {
+        "t": 77.60000000000001,
+        "titulo": "PayPal",
+        "texto": "Aquí revisa la conexión con PayPal: la lista dice qué falta y «Probar conexión» lo verifica sin mover dinero."
+      },
+      {
+        "t": 85.4,
+        "titulo": "Supervisión",
+        "texto": "Pagos, facturas, wallet y reglas los ve en modo consulta. ¡Supervisa todo, pero no mueve dinero!"
+      },
+      {
+        "t": 94.4,
+        "titulo": "Auditoría",
+        "texto": "Y la auditoría lo registra todo: se verifica con HMAC y se exporta en un clic."
+      }
+    ]
+  }
+}

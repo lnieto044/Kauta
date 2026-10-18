@@ -1,0 +1,15 @@
+{
+  "nombre": "Brisamar Labs Inc.",
+  "tipo": "Delaware C-Corp (empresa ficticia)",
+  "id_fiscal": "EIN 88-4410273 (ficticio)",
+  "sede": "Miami, FL, EE. UU.",
+  "actividad": "Software SaaS de logística para pymes",
+  "operacion": "Equipo y proveedores en Colombia, México, Argentina y EE. UU.",
+  "cuenta_operativa": "Cuenta empresarial en USD (banca digital para empresas globales)",
+  "aprobadora": {
+    "nombre": "Mariana Torres",
+    "cargo": "Finance Lead",
+    "correo": "mariana.torres@brisamar.example"
+  },
+  "pagos_mes_promedio": 20
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "vigente_desde": "2026-10-01",
+  "moneda_base": "USD",
+  "periodo_actual": "2026-10",
+  "tasas_cambio": {
+    "_nota": "Unidades de moneda local por 1 USD. Tasas de referencia del ciclo, cercanas a la TRM (COP) y al FIX (MXN) de octubre de 2026; EUR y BRL, las del dataset del reto.",
+    "USD": 1,
+    "COP": 3200,
+    "MXN": 18.4,
+    "EUR": 0.92,
+    "BRL": 5.25
+  },
+  "monedas_permitidas": [
+    "USD",
+    "COP",
+    "MXN",
+    "EUR",
+    "BRL"
+  ],
+  "presupuesto_periodo_usd": 15000,
+  "umbral_aprobacion_usd": 3000,
+  "limite_maximo_pago_usd": 10000,
+  "limite_beneficiario_periodo_usd": 4000,
+  "tolerancia_contrato_pct": 2,
+  "confianza_minima": 0.85,
+  "presupuestos_periodo": {
+    "2026-11": 60000
+  },
+  "_presupuestos_periodo": "Meses con un presupuesto propio. Noviembre de 2026 cierra las compras del año (las facturas de facturas_de_prueba/); los demás meses usan presupuesto_periodo_usd."
+}

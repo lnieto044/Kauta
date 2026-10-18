@@ -1,0 +1,2105 @@
+{
+  "F21_braven-proveedor-59_SIM-2026-000059.pdf": {
+    "factura_id": "F21",
+    "canal": "pdf",
+    "recibida": "2026-09-29T12:53",
+    "dataset_reto": "SIM-FAC-0059",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 59",
+      "id_fiscal": "EIN 84-1701788",
+      "pais": "US"
+    },
+    "contacto": "contraparte-59@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000059",
+    "fecha_emision": "2026-09-28",
+    "fecha_vencimiento": "2026-11-12",
+    "moneda": "USD",
+    "monto": 1901.2,
+    "horas": null,
+    "concepto": "Licencias de gestión de operaciones; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4286",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-59-1",
+        "descripcion": "Licencias de gestión de operaciones",
+        "cantidad": 30.0,
+        "unidad": "licencias",
+        "precio_unitario": 55.0,
+        "total": 1650.0
+      },
+      {
+        "codigo": "SIM-SKU-59-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-59-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 1901.2,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 1940.0,
+    "total": 1901.2,
+    "orden_compra": "SIM-OC-59"
+  },
+  "F22_bricksave-proveedor-12_SIM-2026-000012.pdf": {
+    "factura_id": "F22",
+    "canal": "pdf",
+    "recibida": "2026-09-28T13:24",
+    "dataset_reto": "SIM-FAC-0012",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 12",
+      "id_fiscal": "NIT 913.256.748-1",
+      "pais": "CO"
+    },
+    "contacto": "contraparte-12@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000012",
+    "fecha_emision": "2026-09-27",
+    "fecha_vencimiento": "2026-11-22",
+    "moneda": "COP",
+    "monto": 12879720.0,
+    "horas": null,
+    "concepto": "Cobertura y administración de póliza; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2547",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-12-1",
+        "descripcion": "Cobertura y administración de póliza",
+        "cantidad": 3.0,
+        "unidad": "meses",
+        "precio_unitario": 3360000.0,
+        "total": 10080000.0
+      },
+      {
+        "codigo": "SIM-SKU-12-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 756000.0,
+        "total": 756000.0
+      },
+      {
+        "codigo": "SIM-SKU-12-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 231000.0,
+        "total": 462000.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 16.0,
+        "base": 11298000.0,
+        "monto": 1807680.0,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 2.0,
+        "base": 11298000.0,
+        "monto": 225960.0,
+        "retencion": true
+      }
+    ],
+    "subtotal": 11298000.0,
+    "total": 12879720.0,
+    "orden_compra": "SIM-OC-12"
+  },
+  "F23_bricksave-proveedor-13_SIM-2026-000013.xml": {
+    "factura_id": "F23",
+    "canal": "xml",
+    "recibida": "2026-09-27T14:31",
+    "dataset_reto": "SIM-FAC-0013",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 13",
+      "id_fiscal": "RFC SBP230214PE6",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-13@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000013",
+    "fecha_emision": "2026-09-26",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "MXN",
+    "monto": 70250.12,
+    "horas": null,
+    "concepto": "Administración de inmueble; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2584",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-13-1",
+        "descripcion": "Administración de inmueble",
+        "cantidad": 4.0,
+        "unidad": "inmuebles",
+        "precio_unitario": 13390.0,
+        "total": 53560.0
+      },
+      {
+        "codigo": "SIM-SKU-13-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-13-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 59534.0,
+        "monto": 11311.46,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 59534.0,
+        "monto": 595.34,
+        "retencion": true
+      }
+    ],
+    "subtotal": 59534.0,
+    "total": 70250.12,
+    "orden_compra": "SIM-OC-13"
+  },
+  "F24_dapta-proveedor-30_SIM-2026-000030.eml": {
+    "factura_id": "F24",
+    "canal": "correo",
+    "recibida": "2026-09-26T15:30",
+    "dataset_reto": "SIM-FAC-0030",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 30",
+      "id_fiscal": "NIF B46107130",
+      "pais": "ES"
+    },
+    "contacto": "contraparte-30@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000030",
+    "fecha_emision": "2026-09-25",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "EUR",
+    "monto": 900.21,
+    "horas": null,
+    "concepto": "Licencias de productividad; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3213",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-30-1",
+        "descripcion": "Licencias de productividad",
+        "cantidad": 22.0,
+        "unidad": "licencias",
+        "precio_unitario": 25.76,
+        "total": 566.72
+      },
+      {
+        "codigo": "SIM-SKU-30-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-30-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 833.52,
+        "monto": 66.69,
+        "retencion": false
+      }
+    ],
+    "subtotal": 833.52,
+    "total": 900.21,
+    "orden_compra": "SIM-OC-30"
+  },
+  "F25_bricksave-proveedor-16_SIM-2026-000016.jpg": {
+    "factura_id": "F25",
+    "canal": "imagen",
+    "recibida": "2026-09-24T09:52",
+    "dataset_reto": "SIM-FAC-0016",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 16",
+      "id_fiscal": "CNPJ 33.692.480/0001-58",
+      "pais": "BR"
+    },
+    "contacto": "contraparte-16@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000016",
+    "fecha_emision": "2026-09-23",
+    "fecha_vencimiento": "2026-12-17",
+    "moneda": "BRL",
+    "monto": 10870.13,
+    "horas": null,
+    "concepto": "Cierre contable por entidad; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2695",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.92,
+      "id_fiscal": 0.91,
+      "numero_factura": 0.92,
+      "moneda": 0.99,
+      "monto": 0.92,
+      "fecha_vencimiento": 0.9
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-16-1",
+        "descripcion": "Cierre contable por entidad",
+        "cantidad": 8.0,
+        "unidad": "entidades",
+        "precio_unitario": 1155.0,
+        "total": 9240.0
+      },
+      {
+        "codigo": "SIM-SKU-16-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 945.0,
+        "total": 945.0
+      },
+      {
+        "codigo": "SIM-SKU-16-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 288.75,
+        "total": 577.5
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 5.0,
+        "base": 10762.5,
+        "monto": 538.13,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 4.0,
+        "base": 10762.5,
+        "monto": 430.5,
+        "retencion": true
+      }
+    ],
+    "subtotal": 10762.5,
+    "total": 10870.13,
+    "orden_compra": "SIM-OC-16"
+  },
+  "F26_dapta-proveedor-35_SIM-2026-000035.txt": {
+    "factura_id": "F26",
+    "canal": "chat",
+    "recibida": "2026-09-21T12:05",
+    "dataset_reto": "SIM-FAC-0035",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 35",
+      "id_fiscal": "EIN 84-1511732",
+      "pais": "US"
+    },
+    "contacto": "SIM Dapta Proveedor 35 (WhatsApp)",
+    "numero_factura": "SIM-2026-000035",
+    "fecha_emision": "2026-09-20",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "USD",
+    "monto": 3226.36,
+    "horas": null,
+    "concepto": "Minutos de llamadas; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3398",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.95,
+      "id_fiscal": 0.94,
+      "numero_factura": 0.95,
+      "moneda": 0.99,
+      "monto": 0.95,
+      "fecha_vencimiento": 0.93
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-35-1",
+        "descripcion": "Minutos de llamadas",
+        "cantidad": 50000.0,
+        "unidad": "minutos",
+        "precio_unitario": 0.05,
+        "total": 2500.0
+      },
+      {
+        "codigo": "SIM-SKU-35-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-35-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 2734.2,
+        "monto": 519.5,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 2734.2,
+        "monto": 27.34,
+        "retencion": true
+      }
+    ],
+    "subtotal": 2790.0,
+    "total": 3226.36,
+    "orden_compra": "SIM-OC-35"
+  },
+  "F27_bricksave-proveedor-11_SIM-2026-000011.pdf": {
+    "factura_id": "F27",
+    "canal": "pdf",
+    "recibida": "2026-09-29T12:17",
+    "dataset_reto": "SIM-FAC-0011",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 11",
+      "id_fiscal": "EIN 84-1321676",
+      "pais": "US"
+    },
+    "contacto": "contraparte-11@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000011",
+    "fecha_emision": "2026-09-28",
+    "fecha_vencimiento": "2026-11-12",
+    "moneda": "USD",
+    "monto": 4694.2,
+    "horas": null,
+    "concepto": "Reparaciones programadas; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2510",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-11-1",
+        "descripcion": "Reparaciones programadas",
+        "cantidad": 60.0,
+        "unidad": "horas",
+        "precio_unitario": 75.0,
+        "total": 4500.0
+      },
+      {
+        "codigo": "SIM-SKU-11-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-11-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 4694.2,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 4790.0,
+    "total": 4694.2,
+    "orden_compra": "SIM-OC-11"
+  },
+  "F28_bricksave-proveedor-21_SIM-2026-000021.eml": {
+    "factura_id": "F28",
+    "canal": "correo",
+    "recibida": "2026-09-19T14:27",
+    "dataset_reto": "SIM-FAC-0021",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 21",
+      "id_fiscal": "NIF B46074991",
+      "pais": "ES"
+    },
+    "contacto": "contraparte-21@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000021",
+    "fecha_emision": "2026-09-18",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "EUR",
+    "monto": 5441.8,
+    "horas": null,
+    "concepto": "Materiales para propiedad; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2880",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-21-1",
+        "descripcion": "Materiales para propiedad",
+        "cantidad": 6.25,
+        "unidad": "lotes",
+        "precio_unitario": 828.0,
+        "total": 5175.0
+      },
+      {
+        "codigo": "SIM-SKU-21-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-21-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 5441.8,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 5441.8,
+    "total": 5441.8,
+    "orden_compra": "SIM-OC-21"
+  },
+  "F29_dapta-proveedor-28_SIM-2026-000028.xml": {
+    "factura_id": "F29",
+    "canal": "xml",
+    "recibida": "2026-09-28T13:16",
+    "dataset_reto": "SIM-FAC-0028",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 28",
+      "id_fiscal": "RFC SDP230502KC1",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-28@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000028",
+    "fecha_emision": "2026-09-27",
+    "fecha_vencimiento": "2026-11-22",
+    "moneda": "MXN",
+    "monto": 57535.8,
+    "horas": null,
+    "concepto": "Procesamiento de modelos de IA; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3139",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-28-1",
+        "descripcion": "Procesamiento de modelos de IA",
+        "cantidad": 12.0,
+        "unidad": "millones_tokens",
+        "precio_unitario": 3708.0,
+        "total": 44496.0
+      },
+      {
+        "codigo": "SIM-SKU-28-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-28-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 16.0,
+        "base": 50470.0,
+        "monto": 8075.2,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 2.0,
+        "base": 50470.0,
+        "monto": 1009.4,
+        "retencion": true
+      }
+    ],
+    "subtotal": 50470.0,
+    "total": 57535.8,
+    "orden_compra": "SIM-OC-28"
+  },
+  "F30_creditop-proveedor-46_SIM-2026-000046.pdf": {
+    "factura_id": "F30",
+    "canal": "pdf",
+    "recibida": "2026-09-26T15:22",
+    "dataset_reto": "SIM-FAC-0046",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 46",
+      "id_fiscal": "CNPJ 63.322.110/0001-90",
+      "pais": "BR"
+    },
+    "contacto": "contraparte-46@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000046",
+    "fecha_emision": "2026-09-25",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "BRL",
+    "monto": 9636.3,
+    "horas": null,
+    "concepto": "Conciliación de transacciones; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3805",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-46-1",
+        "descripcion": "Conciliación de transacciones",
+        "cantidad": 20000.0,
+        "unidad": "transacciones",
+        "precio_unitario": 0.37,
+        "total": 7400.0
+      },
+      {
+        "codigo": "SIM-SKU-46-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 945.0,
+        "total": 945.0
+      },
+      {
+        "codigo": "SIM-SKU-46-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 288.75,
+        "total": 577.5
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 8922.5,
+        "monto": 713.8,
+        "retencion": false
+      }
+    ],
+    "subtotal": 8922.5,
+    "total": 9636.3,
+    "orden_compra": "SIM-OC-46"
+  },
+  "F31_braven-proveedor-63_SIM-2026-000063.png": {
+    "factura_id": "F31",
+    "canal": "imagen",
+    "recibida": "2026-09-25T16:21",
+    "dataset_reto": "SIM-FAC-0063",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 63",
+      "id_fiscal": "NIT 918.597.927-4",
+      "pais": "CO"
+    },
+    "contacto": "contraparte-63@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000063",
+    "fecha_emision": "2026-09-24",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "COP",
+    "monto": 16752120.0,
+    "horas": null,
+    "concepto": "Procesamiento y almacenamiento; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4434",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.96,
+      "id_fiscal": 0.95,
+      "numero_factura": 0.96,
+      "moneda": 0.99,
+      "monto": 0.96,
+      "fecha_vencimiento": 0.94
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-63-1",
+        "descripcion": "Procesamiento y almacenamiento",
+        "cantidad": 900.0,
+        "unidad": "horas",
+        "precio_unitario": 17640.0,
+        "total": 15876000.0
+      },
+      {
+        "codigo": "SIM-SKU-63-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 756000.0,
+        "total": 756000.0
+      },
+      {
+        "codigo": "SIM-SKU-63-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 231000.0,
+        "total": 462000.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 16752120.0,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 17094000.0,
+    "total": 16752120.0,
+    "orden_compra": "SIM-OC-63"
+  },
+  "F32_creditop-proveedor-47_SIM-2026-000047.eml": {
+    "factura_id": "F32",
+    "canal": "correo",
+    "recibida": "2026-09-25T16:29",
+    "dataset_reto": "SIM-FAC-0047",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 47",
+      "id_fiscal": "EIN 88-1606760",
+      "pais": "US"
+    },
+    "contacto": "contraparte-47@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000047",
+    "fecha_emision": "2026-09-24",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "USD",
+    "monto": 4988.2,
+    "horas": null,
+    "concepto": "Asesoría contractual; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3842",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-47-1",
+        "descripcion": "Asesoría contractual",
+        "cantidad": 30.0,
+        "unidad": "horas",
+        "precio_unitario": 160.0,
+        "total": 4800.0
+      },
+      {
+        "codigo": "SIM-SKU-47-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-47-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 4988.2,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 5090.0,
+    "total": 4988.2,
+    "orden_compra": "SIM-OC-47"
+  },
+  "F33_dapta-proveedor-36_SIM-2026-000036.txt": {
+    "factura_id": "F33",
+    "canal": "chat",
+    "recibida": "2026-09-20T13:12",
+    "dataset_reto": "SIM-FAC-0036",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 36",
+      "id_fiscal": "NIF B46128556",
+      "pais": "ES"
+    },
+    "contacto": "SIM Dapta Proveedor 36 (WhatsApp)",
+    "numero_factura": "SIM-2026-000036",
+    "fecha_emision": "2026-09-19",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "EUR",
+    "monto": 842.58,
+    "horas": null,
+    "concepto": "Licencias de productividad; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3435",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.95,
+      "id_fiscal": 0.94,
+      "numero_factura": 0.95,
+      "moneda": 0.99,
+      "monto": 0.95,
+      "fecha_vencimiento": 0.93
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-36-1",
+        "descripcion": "Licencias de productividad",
+        "cantidad": 27.5,
+        "unidad": "licencias",
+        "precio_unitario": 25.76,
+        "total": 708.4
+      },
+      {
+        "codigo": "SIM-SKU-36-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-36-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 975.2,
+        "monto": 78.02,
+        "retencion": false
+      }
+    ],
+    "subtotal": 975.2,
+    "total": 842.58,
+    "orden_compra": "SIM-OC-36",
+    "anticipo": 210.64
+  },
+  "F34_braven-proveedor-61_SIM-2026-000061.pdf": {
+    "factura_id": "F34",
+    "canal": "pdf",
+    "recibida": "2026-09-27T14:07",
+    "dataset_reto": "SIM-FAC-0061",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 61",
+      "id_fiscal": "CNPJ 78.136.925/0001-51",
+      "pais": "BR"
+    },
+    "contacto": "contraparte-61@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000061",
+    "fecha_emision": "2026-09-26",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "BRL",
+    "monto": 64985.55,
+    "horas": null,
+    "concepto": "Configuración e integraciones; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4360",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-61-1",
+        "descripcion": "Configuración e integraciones",
+        "cantidad": 120.0,
+        "unidad": "horas",
+        "precio_unitario": 446.25,
+        "total": 53550.0
+      },
+      {
+        "codigo": "SIM-SKU-61-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 945.0,
+        "total": 945.0
+      },
+      {
+        "codigo": "SIM-SKU-61-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 288.75,
+        "total": 577.5
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 55072.5,
+        "monto": 10463.78,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 55072.5,
+        "monto": 550.73,
+        "retencion": true
+      }
+    ],
+    "subtotal": 55072.5,
+    "total": 64985.55,
+    "orden_compra": "SIM-OC-61"
+  },
+  "F35_dapta-proveedor-34_SIM-2026-000034.xml": {
+    "factura_id": "F35",
+    "canal": "xml",
+    "recibida": "2026-09-22T11:58",
+    "dataset_reto": "SIM-FAC-0034",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 34",
+      "id_fiscal": "RFC SDP141108S11",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-34@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000034",
+    "fecha_emision": "2026-09-21",
+    "fecha_vencimiento": "2026-11-22",
+    "moneda": "MXN",
+    "monto": 70217.16,
+    "horas": null,
+    "concepto": "Procesamiento de modelos de IA; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3361",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-34-1",
+        "descripcion": "Procesamiento de modelos de IA",
+        "cantidad": 15.0,
+        "unidad": "millones_tokens",
+        "precio_unitario": 3708.0,
+        "total": 55620.0
+      },
+      {
+        "codigo": "SIM-SKU-34-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-34-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 16.0,
+        "base": 61594.0,
+        "monto": 9855.04,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 2.0,
+        "base": 61594.0,
+        "monto": 1231.88,
+        "retencion": true
+      }
+    ],
+    "subtotal": 61594.0,
+    "total": 70217.16,
+    "orden_compra": "SIM-OC-34"
+  },
+  "F36_bricksave-proveedor-19_SIM-2026-000019.eml": {
+    "factura_id": "F36",
+    "canal": "correo",
+    "recibida": "2026-09-21T12:13",
+    "dataset_reto": "SIM-FAC-0019",
+    "beneficiario": {
+      "nombre": "SIM Bricksave Proveedor 19",
+      "id_fiscal": "RFC SBP140820A38",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-19@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000019",
+    "fecha_emision": "2026-09-20",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "MXN",
+    "monto": 84329.31,
+    "horas": null,
+    "concepto": "Administración de inmueble; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "2806",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-19-1",
+        "descripcion": "Administración de inmueble",
+        "cantidad": 5.0,
+        "unidad": "inmuebles",
+        "precio_unitario": 13390.0,
+        "total": 66950.0
+      },
+      {
+        "codigo": "SIM-SKU-19-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-19-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 71465.52,
+        "monto": 13578.45,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 71465.52,
+        "monto": 714.66,
+        "retencion": true
+      }
+    ],
+    "subtotal": 72924.0,
+    "total": 84329.31,
+    "orden_compra": "SIM-OC-19"
+  },
+  "F37_zolvo-proveedor-76_SIM-2026-000076.jpg": {
+    "factura_id": "F37",
+    "canal": "imagen",
+    "recibida": "2026-09-28T13:52",
+    "dataset_reto": "SIM-FAC-0076",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 76",
+      "id_fiscal": "CNPJ 92.951.740/0001-21",
+      "pais": "BR"
+    },
+    "contacto": "contraparte-76@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000076",
+    "fecha_emision": "2026-09-27",
+    "fecha_vencimiento": "2026-11-22",
+    "moneda": "BRL",
+    "monto": 10627.65,
+    "horas": null,
+    "concepto": "Conciliación automatizada; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4915",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.92,
+      "id_fiscal": 0.91,
+      "numero_factura": 0.92,
+      "moneda": 0.99,
+      "monto": 0.92,
+      "fecha_vencimiento": 0.9
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-76-1",
+        "descripcion": "Conciliación automatizada",
+        "cantidad": 30000.0,
+        "unidad": "transacciones",
+        "precio_unitario": 0.26,
+        "total": 7800.0
+      },
+      {
+        "codigo": "SIM-SKU-76-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 945.0,
+        "total": 945.0
+      },
+      {
+        "codigo": "SIM-SKU-76-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 288.75,
+        "total": 577.5
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 16.0,
+        "base": 9322.5,
+        "monto": 1491.6,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 2.0,
+        "base": 9322.5,
+        "monto": 186.45,
+        "retencion": true
+      }
+    ],
+    "subtotal": 9322.5,
+    "total": 10627.65,
+    "orden_compra": "SIM-OC-76"
+  },
+  "F38_dapta-proveedor-37_SIM-2026-000037.pdf": {
+    "factura_id": "F38",
+    "canal": "pdf",
+    "recibida": "2026-09-19T14:19",
+    "dataset_reto": "SIM-FAC-0037",
+    "beneficiario": {
+      "nombre": "SIM Dapta Proveedor 37",
+      "id_fiscal": "CNPJ 94.433.221/0001-05",
+      "pais": "BR"
+    },
+    "contacto": "contraparte-37@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000037",
+    "fecha_emision": "2026-09-18",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "BRL",
+    "monto": 61241.25,
+    "horas": null,
+    "concepto": "Desarrollo e integraciones; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3472",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-37-1",
+        "descripcion": "Desarrollo e integraciones",
+        "cantidad": 175.0,
+        "unidad": "horas",
+        "precio_unitario": 341.25,
+        "total": 59718.75
+      },
+      {
+        "codigo": "SIM-SKU-37-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 945.0,
+        "total": 945.0
+      },
+      {
+        "codigo": "SIM-SKU-37-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 288.75,
+        "total": 577.5
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 61241.25,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 61241.25,
+    "total": 61241.25,
+    "orden_compra": "SIM-OC-37"
+  },
+  "F39_creditop-proveedor-45_SIM-2026-000045.txt": {
+    "factura_id": "F39",
+    "canal": "chat",
+    "recibida": "2026-09-27T14:15",
+    "dataset_reto": "SIM-FAC-0045",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 45",
+      "id_fiscal": "NIF B46160695",
+      "pais": "ES"
+    },
+    "contacto": "SIM Creditop Proveedor 45 (WhatsApp)",
+    "numero_factura": "SIM-2026-000045",
+    "fecha_emision": "2026-09-26",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "EUR",
+    "monto": 3968.1,
+    "horas": null,
+    "concepto": "Cómputo y procesamiento; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3768",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.95,
+      "id_fiscal": 0.94,
+      "numero_factura": 0.95,
+      "moneda": 0.99,
+      "monto": 0.95,
+      "fecha_vencimiento": 0.93
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-45-1",
+        "descripcion": "Cómputo y procesamiento",
+        "cantidad": 1200.0,
+        "unidad": "horas",
+        "precio_unitario": 2.58,
+        "total": 3096.0
+      },
+      {
+        "codigo": "SIM-SKU-45-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-45-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 3362.8,
+        "monto": 638.93,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 3362.8,
+        "monto": 33.63,
+        "retencion": true
+      }
+    ],
+    "subtotal": 3362.8,
+    "total": 3968.1,
+    "orden_compra": "SIM-OC-45"
+  },
+  "F40_zolvo-proveedor-78_SIM-2026-000078.pdf": {
+    "factura_id": "F40",
+    "canal": "pdf",
+    "recibida": "2026-09-26T15:06",
+    "dataset_reto": "SIM-FAC-0078",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 78",
+      "id_fiscal": "NIT 920.168.862-1",
+      "pais": "CO"
+    },
+    "contacto": "contraparte-78@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000078",
+    "fecha_emision": "2026-09-25",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "COP",
+    "monto": 10841040.0,
+    "horas": null,
+    "concepto": "Consumo de modelos; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4989",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-78-1",
+        "descripcion": "Consumo de modelos",
+        "cantidad": 15.0,
+        "unidad": "millones_tokens",
+        "precio_unitario": 588000.0,
+        "total": 8820000.0
+      },
+      {
+        "codigo": "SIM-SKU-78-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 756000.0,
+        "total": 756000.0
+      },
+      {
+        "codigo": "SIM-SKU-78-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 231000.0,
+        "total": 462000.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 10038000.0,
+        "monto": 803040.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 10038000.0,
+    "total": 10841040.0,
+    "orden_compra": "SIM-OC-78"
+  },
+  "F41_creditop-proveedor-49_SIM-2026-000049.xml": {
+    "factura_id": "F41",
+    "canal": "xml",
+    "recibida": "2026-09-23T10:43",
+    "dataset_reto": "SIM-FAC-0049",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 49",
+      "id_fiscal": "RFC SCP140223MG3",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-49@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000049",
+    "fecha_emision": "2026-09-22",
+    "fecha_vencimiento": "2026-11-12",
+    "moneda": "MXN",
+    "monto": 75536.5,
+    "horas": null,
+    "concepto": "Consultas de validación de identidad; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3916",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-49-1",
+        "descripcion": "Consultas de validación de identidad",
+        "cantidad": 18750.0,
+        "unidad": "consultas",
+        "precio_unitario": 3.71,
+        "total": 69562.5
+      },
+      {
+        "codigo": "SIM-SKU-49-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-49-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 75536.5,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 75536.5,
+    "total": 75536.5,
+    "orden_compra": "SIM-OC-49"
+  },
+  "F42_creditop-proveedor-51_SIM-2026-000051.eml": {
+    "factura_id": "F42",
+    "canal": "correo",
+    "recibida": "2026-09-21T12:57",
+    "dataset_reto": "SIM-FAC-0051",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 51",
+      "id_fiscal": "NIF B46182121",
+      "pais": "ES"
+    },
+    "contacto": "contraparte-51@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000051",
+    "fecha_emision": "2026-09-20",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "EUR",
+    "monto": 4783.8,
+    "horas": null,
+    "concepto": "Cómputo y procesamiento; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "3990",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-51-1",
+        "descripcion": "Cómputo y procesamiento",
+        "cantidad": 1500.0,
+        "unidad": "horas",
+        "precio_unitario": 2.58,
+        "total": 3870.0
+      },
+      {
+        "codigo": "SIM-SKU-51-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-51-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 4054.07,
+        "monto": 770.27,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 4054.07,
+        "monto": 40.54,
+        "retencion": true
+      }
+    ],
+    "subtotal": 4136.8,
+    "total": 4783.8,
+    "orden_compra": "SIM-OC-51"
+  },
+  "F43_creditop-proveedor-53_SIM-2026-000053.txt": {
+    "factura_id": "F43",
+    "canal": "chat",
+    "recibida": "2026-09-19T14:11",
+    "dataset_reto": "SIM-FAC-0053",
+    "beneficiario": {
+      "nombre": "SIM Creditop Proveedor 53",
+      "id_fiscal": "EIN 86-1654274",
+      "pais": "US"
+    },
+    "contacto": "SIM Creditop Proveedor 53 (WhatsApp)",
+    "numero_factura": "SIM-2026-000053",
+    "fecha_emision": "2026-09-18",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "USD",
+    "monto": 6290.0,
+    "horas": null,
+    "concepto": "Asesoría contractual; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4064",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.95,
+      "id_fiscal": 0.94,
+      "numero_factura": 0.95,
+      "moneda": 0.99,
+      "monto": 0.95,
+      "fecha_vencimiento": 0.93
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-53-1",
+        "descripcion": "Asesoría contractual",
+        "cantidad": 37.5,
+        "unidad": "horas",
+        "precio_unitario": 160.0,
+        "total": 6000.0
+      },
+      {
+        "codigo": "SIM-SKU-53-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-53-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 6290.0,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 6290.0,
+    "total": 6290.0,
+    "orden_compra": "SIM-OC-53"
+  },
+  "F44_braven-proveedor-66_SIM-2026-000066.png": {
+    "factura_id": "F44",
+    "canal": "imagen",
+    "recibida": "2026-09-22T11:42",
+    "dataset_reto": "SIM-FAC-0066",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 66",
+      "id_fiscal": "NIF B46235686",
+      "pais": "ES"
+    },
+    "contacto": "contraparte-66@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000066",
+    "fecha_emision": "2026-09-21",
+    "fecha_vencimiento": "2026-11-22",
+    "moneda": "EUR",
+    "monto": 5434.16,
+    "horas": null,
+    "concepto": "Extracción documental y modelos; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4545",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.96,
+      "id_fiscal": 0.95,
+      "numero_factura": 0.96,
+      "moneda": 0.99,
+      "monto": 0.96,
+      "fecha_vencimiento": 0.94
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-66-1",
+        "descripcion": "Extracción documental y modelos",
+        "cantidad": 22500.0,
+        "unidad": "documentos",
+        "precio_unitario": 0.2,
+        "total": 4500.0
+      },
+      {
+        "codigo": "SIM-SKU-66-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-66-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 16.0,
+        "base": 4766.8,
+        "monto": 762.69,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 2.0,
+        "base": 4766.8,
+        "monto": 95.33,
+        "retencion": true
+      }
+    ],
+    "subtotal": 4766.8,
+    "total": 5434.16,
+    "orden_compra": "SIM-OC-66"
+  },
+  "F45_zolvo-proveedor-81_SIM-2026-000081.pdf": {
+    "factura_id": "F45",
+    "canal": "pdf",
+    "recibida": "2026-09-23T10:27",
+    "dataset_reto": "SIM-FAC-0081",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 81",
+      "id_fiscal": "NIF B46289251",
+      "pais": "ES"
+    },
+    "contacto": "contraparte-81@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000081",
+    "fecha_emision": "2026-09-22",
+    "fecha_vencimiento": "2026-11-12",
+    "moneda": "EUR",
+    "monto": 4954.3,
+    "horas": null,
+    "concepto": "Validación de facturas y anexos; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "5100",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-81-1",
+        "descripcion": "Validación de facturas y anexos",
+        "cantidad": 31250.0,
+        "unidad": "documentos",
+        "precio_unitario": 0.15,
+        "total": 4687.5
+      },
+      {
+        "codigo": "SIM-SKU-81-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 165.6,
+        "total": 165.6
+      },
+      {
+        "codigo": "SIM-SKU-81-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 50.6,
+        "total": 101.2
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 4954.3,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 4954.3,
+    "total": 4954.3,
+    "orden_compra": "SIM-OC-81"
+  },
+  "F46_zolvo-proveedor-79_SIM-2026-000079.xml": {
+    "factura_id": "F46",
+    "canal": "xml",
+    "recibida": "2026-09-25T16:13",
+    "dataset_reto": "SIM-FAC-0079",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 79",
+      "id_fiscal": "RFC SZP140826DC1",
+      "pais": "MX"
+    },
+    "contacto": "contraparte-79@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000079",
+    "fecha_emision": "2026-09-24",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "MXN",
+    "monto": 187546.52,
+    "horas": null,
+    "concepto": "Integraciones de datos; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "5026",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-79-1",
+        "descripcion": "Integraciones de datos",
+        "cantidad": 100.0,
+        "unidad": "horas",
+        "precio_unitario": 1854.0,
+        "total": 185400.0
+      },
+      {
+        "codigo": "SIM-SKU-79-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 3708.0,
+        "total": 3708.0
+      },
+      {
+        "codigo": "SIM-SKU-79-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 1133.0,
+        "total": 2266.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 187546.52,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 191374.0,
+    "total": 187546.52,
+    "orden_compra": "SIM-OC-79"
+  },
+  "F47_zolvo-proveedor-83_SIM-2026-000083.eml": {
+    "factura_id": "F47",
+    "canal": "correo",
+    "recibida": "2026-09-21T12:41",
+    "dataset_reto": "SIM-FAC-0083",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 83",
+      "id_fiscal": "EIN 84-1891844",
+      "pais": "US"
+    },
+    "contacto": "contraparte-83@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000083",
+    "fecha_emision": "2026-09-20",
+    "fecha_vencimiento": "2026-10-28",
+    "moneda": "USD",
+    "monto": 5828.26,
+    "horas": null,
+    "concepto": "Cómputo de procesamiento; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "5174",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.97,
+      "id_fiscal": 0.96,
+      "numero_factura": 0.97,
+      "moneda": 0.99,
+      "monto": 0.97,
+      "fecha_vencimiento": 0.95
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-83-1",
+        "descripcion": "Cómputo de procesamiento",
+        "cantidad": 1250.0,
+        "unidad": "horas",
+        "precio_unitario": 3.8,
+        "total": 4750.0
+      },
+      {
+        "codigo": "SIM-SKU-83-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-83-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 19.0,
+        "base": 4939.2,
+        "monto": 938.45,
+        "retencion": false
+      },
+      {
+        "tipo": "Retención (simulada)",
+        "tasa": 1.0,
+        "base": 4939.2,
+        "monto": 49.39,
+        "retencion": true
+      }
+    ],
+    "subtotal": 5040.0,
+    "total": 5828.26,
+    "orden_compra": "SIM-OC-83"
+  },
+  "F48_braven-proveedor-69_SIM-2026-000069.jpg": {
+    "factura_id": "F48",
+    "canal": "imagen",
+    "recibida": "2026-09-19T14:03",
+    "dataset_reto": "SIM-FAC-0069",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 69",
+      "id_fiscal": "NIT 919.226.301-7",
+      "pais": "CO"
+    },
+    "contacto": "contraparte-69@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000069",
+    "fecha_emision": "2026-09-18",
+    "fecha_vencimiento": "2026-11-17",
+    "moneda": "COP",
+    "monto": 21063000.0,
+    "horas": null,
+    "concepto": "Procesamiento y almacenamiento; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4656",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.92,
+      "id_fiscal": 0.91,
+      "numero_factura": 0.92,
+      "moneda": 0.99,
+      "monto": 0.92,
+      "fecha_vencimiento": 0.9
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-69-1",
+        "descripcion": "Procesamiento y almacenamiento",
+        "cantidad": 1125.0,
+        "unidad": "horas",
+        "precio_unitario": 17640.0,
+        "total": 19845000.0
+      },
+      {
+        "codigo": "SIM-SKU-69-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 756000.0,
+        "total": 756000.0
+      },
+      {
+        "codigo": "SIM-SKU-69-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 231000.0,
+        "total": 462000.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 0.0,
+        "base": 21063000.0,
+        "monto": 0.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 21063000.0,
+    "total": 21063000.0,
+    "orden_compra": "SIM-OC-69"
+  },
+  "F49_zolvo-proveedor-84_SIM-2026-000084.txt": {
+    "factura_id": "F49",
+    "canal": "chat",
+    "recibida": "2026-09-20T13:48",
+    "dataset_reto": "SIM-FAC-0084",
+    "beneficiario": {
+      "nombre": "SIM Zolvo Proveedor 84",
+      "id_fiscal": "NIT 920.797.236-9",
+      "pais": "CO"
+    },
+    "contacto": "SIM Zolvo Proveedor 84 (WhatsApp)",
+    "numero_factura": "SIM-2026-000084",
+    "fecha_emision": "2026-09-19",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "COP",
+    "monto": 10577952.0,
+    "horas": null,
+    "concepto": "Consumo de modelos; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "5211",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.95,
+      "id_fiscal": 0.94,
+      "numero_factura": 0.95,
+      "moneda": 0.99,
+      "monto": 0.95,
+      "fecha_vencimiento": 0.93
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-84-1",
+        "descripcion": "Consumo de modelos",
+        "cantidad": 18.75,
+        "unidad": "millones_tokens",
+        "precio_unitario": 588000.0,
+        "total": 11025000.0
+      },
+      {
+        "codigo": "SIM-SKU-84-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 756000.0,
+        "total": 756000.0
+      },
+      {
+        "codigo": "SIM-SKU-84-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 231000.0,
+        "total": 462000.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 12243000.0,
+        "monto": 979440.0,
+        "retencion": false
+      }
+    ],
+    "subtotal": 12243000.0,
+    "total": 10577952.0,
+    "orden_compra": "SIM-OC-84",
+    "anticipo": 2644488.0
+  },
+  "F50_braven-proveedor-62_SIM-2026-000062.pdf": {
+    "factura_id": "F50",
+    "canal": "pdf",
+    "recibida": "2026-09-26T15:14",
+    "dataset_reto": "SIM-FAC-0062",
+    "beneficiario": {
+      "nombre": "SIM Braven Proveedor 62",
+      "id_fiscal": "EIN 87-1725545",
+      "pais": "US"
+    },
+    "contacto": "contraparte-62@datos-sinteticos.example",
+    "numero_factura": "SIM-2026-000062",
+    "fecha_emision": "2026-09-25",
+    "fecha_vencimiento": "2026-12-02",
+    "moneda": "USD",
+    "monto": 7495.2,
+    "horas": null,
+    "concepto": "Soporte especializado; Configuración, entrega o reporte asociado; Soporte y control de calidad",
+    "cuenta_destino": "4397",
+    "alertas": [],
+    "confianza": {
+      "beneficiario": 0.98,
+      "id_fiscal": 0.97,
+      "numero_factura": 0.98,
+      "moneda": 0.99,
+      "monto": 0.98,
+      "fecha_vencimiento": 0.96
+    },
+    "lineas": [
+      {
+        "codigo": "SIM-SKU-62-1",
+        "descripcion": "Soporte especializado",
+        "cantidad": 70.0,
+        "unidad": "horas",
+        "precio_unitario": 95.0,
+        "total": 6650.0
+      },
+      {
+        "codigo": "SIM-SKU-62-2",
+        "descripcion": "Configuración, entrega o reporte asociado",
+        "cantidad": 1.0,
+        "unidad": "servicios",
+        "precio_unitario": 180.0,
+        "total": 180.0
+      },
+      {
+        "codigo": "SIM-SKU-62-3",
+        "descripcion": "Soporte y control de calidad",
+        "cantidad": 2.0,
+        "unidad": "horas",
+        "precio_unitario": 55.0,
+        "total": 110.0
+      }
+    ],
+    "impuestos": [
+      {
+        "tipo": "Impuesto (simulado)",
+        "tasa": 8.0,
+        "base": 6940.0,
+        "monto": 555.2,
+        "retencion": false
+      }
+    ],
+    "subtotal": 6940.0,
+    "total": 7495.2,
+    "orden_compra": "SIM-OC-62"
+  }
+}

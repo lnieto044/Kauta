@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCUMENTO SIMULADO PARA EL HACKATHON 30X · DATOS FICTICIOS · SIN VALIDEZ FISCAL · SIN FIRMA DIGITAL -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd"
+  Version="4.0" Serie="NC" Folio="12" Fecha="2026-10-09T09:05:00" Sello="lDagGywRK7AfDJUzsIzDfj2MjO/nQnngKRfoPD0mWX8q5qrICN8+h9ggVXXk1cb9v3mwwm8vnRUlpCYPqEgyE4AS/vh4RRxJqDY08AS2IwflmBorA95Mt+9WPfq9xNYZ9MNyOWUsCVvmYsTdYRS4PcpSYVm1ZkD1lAzjP9iM17L8JeF5aARO9gCJsX4p950IYIWDAJNoWkD5txYFBO3ljOyWiIOx2Qut0JFX9AvU7ryXWvdqgCCLSCo+fQTTcJOpEcGEq1McgVjNqXCas/XGdcTbvZqJf9alz/pDP7Ef+8+UnM91WRWLAl2yfbHSEP8U5NCogvV2KU3hxmk5ruRKm1==" FormaPago="03"
+  NoCertificado="30001000000500000000" Certificado="eQGO2owrX5zN02+Iyz/i1txcnoPNx3BB+J3XFzaPHsV/rq3Dxp882KRSKFJcbMB3/qcKrMvwc4ZccwsthMOHyMMj0H1InDI46kD9KQmADk5JLaSO/nug2O26+R2znLZ+hpwflqCakFA0vTo7MgiUuJXXwplshKAb5cgCqi8gCCO/wTUQGiU19DtF5OjHYiO6F14Br4KpQWLMZPDZiDcILdmEx5/t5e8E0Rrh4MYmYNMVZ9Re1xyC7W1EqL0RFn7OzFHWTVnjTBrCRrYIvd4awV8smkDAr9NonNcezMqyi2x/sk8MQJKgXZB/yPo/A2Dndr2YxuiUE/y/s1dvnMB+ODnuh1NpXsDdNqZRCxbljGOF7yvGrUSTLgjsYo9EXCvo/mZQBiaHRIQVcl4g=="
+  SubTotal="2760.00" Moneda="MXN" Total="2760.00" TipoDeComprobante="E" Exportacion="01" MetodoPago="PUE" LugarExpedicion="06700">
+  <cfdi:CfdiRelacionados TipoRelacion="01">
+    <cfdi:CfdiRelacionado UUID="B2C078D3-83F9-4499-A247-A30D955FAEAA"/>
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Rfc="TMA190312KJ4" Nombre="TRADUCCIONES MAYA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="BRISAMAR LABS INC" DomicilioFiscalReceptor="06700" ResidenciaFiscal="USA"
+    NumRegIdTrib="884410273" RegimenFiscalReceptor="616" UsoCFDI="S01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="ACT" Unidad="Actividad"
+      Descripcion="Descuento comercial del 10 % sobre la factura TM-455 (octubre 2026)" ValorUnitario="2760.00" Importe="2760.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados><cfdi:Traslado Base="2760.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+    <cfdi:Traslados><cfdi:Traslado Base="2760.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="E35DB91F-18F3-5A51-87A4-7D1C18DEB8C3" FechaTimbrado="2026-10-09T09:06:12" RfcProvCertif="PSI150101AB5"
+      SelloCFD="lDagGywRK7AfDJUzsIzDfj2MjO/nQnngKRfoPD0mWX8q5qrICN8+h9ggVXXk1cb9v3mwwm8vnRUlpCYPqEgyE4AS/vh4RRxJqDY08AS2IwflmBorA95Mt+9WPfq9xNYZ9MNyOWUsCVvmYsTdYRS4PcpSYVm1ZkD1lAzjP9iM17L8JeF5aARO9gCJsX4p950IYIWDAJNoWkD5txYFBO3ljOyWiIOx2Qut0JFX9AvU7ryXWvdqgCCLSCo+fQTTcJOpEcGEq1McgVjNqXCas/XGdcTbvZqJf9alz/pDP7Ef+8+UnM91WRWLAl2yfbHSEP8U5NCogvV2KU3hxmk5ruRKm1==" NoCertificadoSAT="00001000000700000000" SelloSAT="ekkhL5w64J0MQ+R1RKKvpV9d/o9QS5z6Sa5GLSeBVzEu1e0Ff+rXYvpawTo4lRTuOmx+Xy36pLWp8sWXNp4wkWI1vEKcGpi6+MIobOY0XyeEUCct4KTLMOX5QUNxNoo292Wk0OsgZKabMFxdqkDFQZyau2heP93uCn4VeAbUBlx8KUsmr7EV/aS5nD+LdTOcXVE1kqNqz56vdT/SihgmLynFRrAJbRmFjAVHROdQkNXH1FhvknJGwmv+pTKXmEtnxRtSA42IOMsjVxJHCsW0Y30V70VkMmo3BGLli0YHfEQdqpFlKuiP6gqXMyp+6A6q0+NMslhJjrUYYqLDuAVQ+a=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

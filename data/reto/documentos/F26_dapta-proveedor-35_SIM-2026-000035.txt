@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Hola, les comparto la factura SIM-2026-000035 de minutos de llamadas.
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Detalle de los ítems:
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): • SIM-SKU-35-1 · Minutos de llamadas: 50,000 minutos × USD 0.05 = USD 2,500.00
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): • SIM-SKU-35-2 · Configuración, entrega o reporte asociado: 1 servicios × USD 180.00 = USD 180.00
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): • SIM-SKU-35-3 · Soporte y control de calidad: 2 horas × USD 55.00 = USD 110.00
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Subtotal USD 2,790.00 · descuento USD 55.80 · impuesto 19 % USD 519.50 · retención 1 % USD 27.34
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Total a pagar: USD 3,226.36
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Vence el 28/10/2026. Orden de compra SIM-OC-35. Pago a la cuenta registrada terminada en 3398.
+[21/09/26, 12:05] SIM Dapta Proveedor 35 (facturación): Identificación: EIN 84-1511732.
+[21/09/26, 12:05] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.

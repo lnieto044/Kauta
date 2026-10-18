@@ -1,0 +1,29 @@
+# Secretos y claves: nunca van al repositorio
+.env
+.env.*
+!.env.example
+*.key
+.streamlit/secrets.toml
+
+# Datos locales de la demo (base, claves generadas, correos, documentos recibidos)
+var/
+*.db
+*.db-shm
+*.db-wal
+salidas/
+capturas_web/
+
+# Entornos, cachés y compilados
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+web/node_modules/
+web/dist/
+.vercel/
+
+# Herramientas locales
+.claude/

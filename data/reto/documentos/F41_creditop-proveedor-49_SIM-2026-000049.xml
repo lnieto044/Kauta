@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCUMENTO SIMULADO PARA EL HACKATHON 30X · DATOS FICTICIOS · SIN VALIDEZ FISCAL · SIN FIRMA DIGITAL -->
+<!-- Construido con los ítems de SIM-FAC-0049 del dataset del reto (facturas.csv y detalle_factura.csv). -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd"
+  Version="4.0" Serie="SIM" Folio="000049" Fecha="2026-09-22T10:43:00" Sello="v+HK7cxWLhMrph2DDTWUZXio1pAohchnTpfMWAOmNSibULljoyrYYSaUc+8mvGKWWSRVkG6bCg3pUdFYrBrpi4FntgfbeDnM3nnJbWB42vfxgyGl0L9hEiKkwG0vjR1K/YseNxM4pPPrG3DVKcbMINhthmp+MI3l5acBygaVlhgwqe+AqBBwTAMaNnMQeTsHJ8eTxfYz6ynH8zJfnUC/4hPwsp/Qsj9y3/4wdjhPDVacsJ1dvmk2gjZZWlcDfGhnP/ft+UB8PDIbxV+AZEnwJ21nKosZ0ZrnX3mEzVNom88MR/myTSOEUQrsLDRfTogeolOm0vSqZWge3cIn8wgVjI==" FormaPago="99"
+  NoCertificado="30001000000500000000" Certificado="qKIAyc+/OL7RmSvxgcYuhsv1XA7aZ4goR2HRcUrZqOpbgR2iwnVnX9dfY32VBVSVEET9Kpm9vGlVLBY77u8fS7IDFO5Pql0YtFnB0I6SsQhD11eBd/lhqbKBuKYkJ+FfIb1SldR+xDYGt4ycY7vu/8AToTjLaTibmG7YlQnMsi3X4WvtkEvd4a9hCARmElkH/jMLZ+kIoDoBP/JnM60qELhhmVrtS0hP1b7Hf3mSp4Xsl/HU3qmfQhqMvu+xHjwgW+5sPsJ8i8W86scST1sOdsDn8Vc6eYvsdnbPQtqFWQQ//45wrzvvl6VUt36RK4/CIQvHTYZoN49w5kuxqDGKsY9wLOKIW7aLreMPbFv7N81vyOGGx2XZfkorKX5UFYDQfRq8G5kC8gC48XQo=="
+  CondicionesDePago="Fecha límite de pago: 12/11/2026 · orden de compra SIM-OC-49"
+  SubTotal="75536.50" Moneda="MXN" Total="75536.50"
+  TipoDeComprobante="I" Exportacion="02" MetodoPago="PPD" LugarExpedicion="06700">
+  <cfdi:Emisor Rfc="SCP140223MG3" Nombre="SIM CREDITOP PROVEEDOR 49" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="BRISAMAR LABS INC" DomicilioFiscalReceptor="06700" ResidenciaFiscal="USA"
+    NumRegIdTrib="884410273" RegimenFiscalReceptor="616" UsoCFDI="S01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="81111500" NoIdentificacion="SIM-SKU-49-1" Cantidad="18750" ClaveUnidad="E48" Unidad="consultas" Descripcion="Consultas de validación de identidad" ValorUnitario="3.71" Importe="69562.50" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="69562.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81111500" NoIdentificacion="SIM-SKU-49-2" Cantidad="1" ClaveUnidad="E48" Unidad="servicios" Descripcion="Configuración, entrega o reporte asociado" ValorUnitario="3708.00" Importe="3708.00" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="3708.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="81111500" NoIdentificacion="SIM-SKU-49-3" Cantidad="2" ClaveUnidad="HUR" Unidad="horas" Descripcion="Soporte y control de calidad" ValorUnitario="1133.00" Importe="2266.00" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="2266.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+    <cfdi:Traslados><cfdi:Traslado Base="75536.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="CA761087-A25D-5EEB-8E2A-08C50AC64B22" FechaTimbrado="2026-09-22T10:43:40" RfcProvCertif="PSI150101AB5"
+      SelloCFD="v+HK7cxWLhMrph2DDTWUZXio1pAohchnTpfMWAOmNSibULljoyrYYSaUc+8mvGKWWSRVkG6bCg3pUdFYrBrpi4FntgfbeDnM3nnJbWB42vfxgyGl0L9hEiKkwG0vjR1K/YseNxM4pPPrG3DVKcbMINhthmp+MI3l5acBygaVlhgwqe+AqBBwTAMaNnMQeTsHJ8eTxfYz6ynH8zJfnUC/4hPwsp/Qsj9y3/4wdjhPDVacsJ1dvmk2gjZZWlcDfGhnP/ft+UB8PDIbxV+AZEnwJ21nKosZ0ZrnX3mEzVNom88MR/myTSOEUQrsLDRfTogeolOm0vSqZWge3cIn8wgVjI==" NoCertificadoSAT="00001000000700000000" SelloSAT="5Sa+aeKTJyCJYiBkt+zu3ui/Hw94Ds6zgOFGZn63Qu1OsM8oD7p4WPxTlZ0z7gqa8E29WQFn+VI4/0Bb+TgwZ638e4obChV98SFXR2iMBYqL/GnZttxeQCBJKSvFA3tfDQAxlRPMuSzeoVeNHziH8d/jREyM4117vXvE2M/ziJLp8+wdMOutMSwTh0qdc+sQQB8498QgTHyVErfgri6NJPJVt4ewA4ZsmXLSBFaaeQdIw9E8jhFM9o/CVjGCkWd7363dkH3DIyj7Q8CGtSp3r5CvTqmPqa6hIf8KEXfeXD/PN3ygh7W23DZkDwCBgIdQoR/pLg8dlSsw64wvbrFasI=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

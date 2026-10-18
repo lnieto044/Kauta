@@ -1,0 +1,52 @@
+{
+  // Con F5 arranca Kauta y se abre el navegador. Elija la configuración en el panel «Run and Debug».
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Kauta · servidor (abre el navegador)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["servidor.main:app", "--host", "127.0.0.1", "--port", "8000", "--reload"],
+      "cwd": "${workspaceFolder}",
+      "env": { "KAUTA_MODO": "demo", "PYTHONUNBUFFERED": "1" },
+      "serverReadyAction": { "pattern": "Uvicorn running on https?://\\S+:(\\d+)", "uriFormat": "http://localhost:%s", "action": "openExternally" },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Kauta · servidor con IA (necesita clave)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["servidor.main:app", "--host", "127.0.0.1", "--port", "8000", "--reload"],
+      "cwd": "${workspaceFolder}",
+      "env": { "KAUTA_MODO": "demo", "PYTHONUNBUFFERED": "1", "ANTHROPIC_API_KEY": "${env:ANTHROPIC_API_KEY}" },
+      "serverReadyAction": { "pattern": "Uvicorn running on https?://\\S+:(\\d+)", "uriFormat": "http://localhost:%s", "action": "openExternally" },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Kauta · las 20 facturas en la terminal",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/correr_set.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Kauta · medir el lector local (OCR)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/medir_ocr.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Kauta · pantalla en modo desarrollo (Vite)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm install && npm run dev",
+      "cwd": "${workspaceFolder}/web"
+    }
+  ]
+}

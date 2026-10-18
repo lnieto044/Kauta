@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCUMENTO SIMULADO PARA EL HACKATHON 30X · DATOS FICTICIOS · SIN VALIDEZ FISCAL · SIN FIRMA DIGITAL -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd"
+  Version="4.0" Serie="TM" Folio="455" Fecha="2026-10-02T10:20:11" Sello="ICN8+h9ggVXXk1cb9v3mwwm8vnRUlpCYPqEgyE4AS/vh4RRxJqDY08AS2IwflmBorA95Mt+9WPfq9xNYZ9MNyOWUsCVvmYsTdYRS4PcpSYVm1ZkD1lAzjP9iM17L8JeF5aARO9gCJsX4p950IYIWDAJNoWkD5txYFBO3ljOyWiIOx2Qut0JFX9AvU7ryXWvdqgCCLSCo+fQTTcJOpEcGEq1McgVjNqXCas/XGdcTbvZqJf9alz/pDP7Ef+8+UnM91WRWLAl2yfbHSEP8U5NCogvV2KU3hxmk5ruRKm1eQGO2owrX5zN02+Iyz/i1txcnoPNx3BB+J3XFzaPHsV/rq3==" FormaPago="03"
+  NoCertificado="30001000000500000000" Certificado="pwflqCakFA0vTo7MgiUuJXXwplshKAb5cgCqi8gCCO/wTUQGiU19DtF5OjHYiO6F14Br4KpQWLMZPDZiDcILdmEx5/t5e8E0Rrh4MYmYNMVZ9Re1xyC7W1EqL0RFn7OzFHWTVnjTBrCRrYIvd4awV8smkDAr9NonNcezMqyi2x/sk8MQJKgXZB/yPo/A2Dndr2YxuiUE/y/s1dvnMB+ODnuh1NpXsDdNqZRCxbljGOF7yvGrUSTLgjsYo9EXCvo/mZQBiaHRIQVcl4gekkhL5w64J0MQ+R1RKKvpV9d/o9QS5z6Sa5GLSeBVzEu1e0Ff+rXYvpawTo4lRTuOmx+Xy36pLWp8sWXNp4wkWI1vEKcGpi6+MIobOY0XyeEUCct4KTLMOX5QUNxNoo29==" CondicionesDePago="Fecha límite de pago: 17/10/2026"
+  SubTotal="27600.00" Moneda="MXN" Total="27600.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="06700">
+  <cfdi:Emisor Rfc="TMA190312KJ4" Nombre="TRADUCCIONES MAYA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="BRISAMAR LABS INC" DomicilioFiscalReceptor="06700" ResidenciaFiscal="USA"
+    NumRegIdTrib="884410273" RegimenFiscalReceptor="616" UsoCFDI="S01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="82111700" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio"
+      Descripcion="Traducción y localización ES/EN/PT — octubre 2026" ValorUnitario="27600.00" Importe="27600.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados><cfdi:Traslado Base="27600.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0.00">
+    <cfdi:Traslados><cfdi:Traslado Base="27600.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="B2C078D3-83F9-4499-A247-A30D955FAEAA" FechaTimbrado="2026-10-02T10:21:03" RfcProvCertif="PSI150101AB5"
+      SelloCFD="ICN8+h9ggVXXk1cb9v3mwwm8vnRUlpCYPqEgyE4AS/vh4RRxJqDY08AS2IwflmBorA95Mt+9WPfq9xNYZ9MNyOWUsCVvmYsTdYRS4PcpSYVm1ZkD1lAzjP9iM17L8JeF5aARO9gCJsX4p950IYIWDAJNoWkD5txYFBO3ljOyWiIOx2Qut0JFX9AvU7ryXWvdqgCCLSCo+fQTTcJOpEcGEq1McgVjNqXCas/XGdcTbvZqJf9alz/pDP7Ef+8+UnM91WRWLAl2yfbHSEP8U5NCogvV2KU3hxmk5ruRKm1eQGO2owrX5zN02+Iyz/i1txcnoPNx3BB+J3XFzaPHsV/rq3==" NoCertificadoSAT="00001000000700000000" SelloSAT="2Wk0OsgZKabMFxdqkDFQZyau2heP93uCn4VeAbUBlx8KUsmr7EV/aS5nD+LdTOcXVE1kqNqz56vdT/SihgmLynFRrAJbRmFjAVHROdQkNXH1FhvknJGwmv+pTKXmEtnxRtSA42IOMsjVxJHCsW0Y30V70VkMmo3BGLli0YHfEQdqpFlKuiP6gqXMyp+6A6q0+NMslhJjrUYYqLDuAVQ+ax7cpvstB8niv/WbMKCgfRgvqmoHhnx+QnswBvGst3prosF5tgZJOZxpz6z+uLSLq6X534e5p4XkqcnjNy/xlHnTHH7/sAQ2piGuDT3bRt9pVWnqWz06hAU5dlOwrjcuLf=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

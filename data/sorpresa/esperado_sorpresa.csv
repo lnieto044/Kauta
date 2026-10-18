@@ -1,0 +1,5 @@
+archivo,formato,descripcion,decision_sola,regla_sola,decision_despues_del_set,regla_despues_del_set,por_que
+S01_traducciones-maya_TM-455.xml,xml,CFDI 4.0 en XML de la misma factura F04: lectura exacta sin IA.,pagar,—,frenar,R03,Mismo folio fiscal (UUID) que F04: es la misma factura en otro formato.
+S02_pixel-andino_PA-2026-10.zip,zip,Contenedor DIAN (AttachedDocument) con el XML y el PDF de F02.,pagar,—,frenar,R03,Mismo CUFE que F02: el proveedor envió la misma factura dos veces.
+S03_proveedor-desconocido_FX-001.xml,xml,XML malicioso (patrón XXE) con una instrucción oculta.,escalar,R01,escalar,R01,Se rechaza sin abrirlo; nada del archivo se ejecuta ni se obedece.
+S04_traducciones-maya_NC-12.xml,xml,Nota de crédito CFDI 4.0 (tipo E) relacionada con F04: descuento del 10 %.,frenar,R01,frenar,R01,"Una nota crédito reduce lo que se debe: no es un cobro y nunca se paga, ni con aprobación."

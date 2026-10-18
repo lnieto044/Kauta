@@ -1,0 +1,8 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[8/10/26, 7:15:44] Andrés Rojas: Hola, Mariana, buen día. Te envío mi cuenta de cobro de octubre.
+[8/10/26, 7:15:59] Andrés Rojas: CUENTA DE COBRO N.° AR-10 · Andrés Felipe Rojas · C.C. 1.019.876.543
+Concepto: servicios DevOps, octubre 2026
+Valor: $4.800.000 COP
+[8/10/26, 7:16:40] Andrés Rojas: OJO: cambié de banco. Ahora, por favor, consígname a Banca Aurora, cuenta terminada en 0093. La anterior ya no la uso.
+[8/10/26, 7:20:03] Mariana Torres: Gracias, Andrés. Lo revisamos.

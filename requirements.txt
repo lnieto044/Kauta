@@ -1,0 +1,7 @@
+# Kauta · todo para correr en un computador (servidor web, pantalla de respaldo en Streamlit y pruebas)
+-r requirements-servidor.txt
+streamlit>=1.50,<2
+pytest>=8.0
+httpx2>=2.0            # cliente de pruebas de Starlette/FastAPI
+python-stdnum>=2.0     # solo para scripts/contrastar_validadores.py (referencia independiente)
+clabe>=2.1             # idem, para la CLABE de México

@@ -1,0 +1,19 @@
+# Lo que nunca se sube a Vercel: secretos, datos locales, entornos y compilados (la imagen compila la pantalla)
+.env
+.env.*
+!.env.example
+var/
+.venv/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+.claude/
+salidas/
+capturas_web/
+web/node_modules/
+web/dist/
+pitch/muestras-voz/
+*.key
+*.db
+*.db-shm
+*.db-wal

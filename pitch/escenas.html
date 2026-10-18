@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kauta · escenas del pitch</title>
+<style>
+  :root { --noche:#0B1736; --noche2:#13224A; --azul:#3B5BFD; --menta:#16C79A; --ambar:#FFB547; --coral:#FF5C5C; --niebla:#C9D2E8; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: var(--noche); color: #fff;
+    font-family: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif; }
+  body::before { content: ""; position: fixed; inset: 0; pointer-events: none;
+    background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 48px 48px; }
+  body::after { content: ""; position: fixed; width: 900px; height: 900px; right: -300px; top: -380px; border-radius: 50%; pointer-events: none;
+    background: radial-gradient(circle, rgba(59,91,253,.32), transparent 62%); }
+  section { position: fixed; inset: 0; padding: 64px 88px 120px; display: none; flex-direction: column; justify-content: center; }
+  section.activa { display: flex; }
+  .a { opacity: 0; transform: translateY(22px); }
+  section.activa .a { animation: entra .7s cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--i, 0) * .32s + .15s); }
+  @keyframes entra { to { opacity: 1; transform: none; } }
+  .antetitulo { font-size: 15px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--menta); }
+  h1 { font-size: 64px; line-height: 1.04; font-weight: 750; letter-spacing: -.025em; }
+  h2 { font-size: 46px; line-height: 1.08; font-weight: 720; letter-spacing: -.02em; }
+  .suave { color: var(--niebla); }
+  .marca { display: flex; align-items: center; gap: 18px; }
+  .k { width: 74px; height: 74px; border-radius: 18px; background: linear-gradient(135deg, var(--azul), #6C84FF); display: grid; place-items: center;
+       font-size: 44px; font-weight: 800; box-shadow: 0 18px 40px rgba(59,91,253,.4); }
+  .chips { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 34px; }
+  .chip { padding: 12px 20px; border-radius: 999px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); font-size: 22px; font-weight: 600; }
+  .alerta { margin-top: 38px; max-width: 760px; padding: 22px 26px; border-radius: 16px; background: rgba(255,92,92,.12); border: 1px solid rgba(255,92,92,.45); }
+  .alerta b { color: var(--coral); font-size: 14px; letter-spacing: .12em; text-transform: uppercase; }
+  .alerta p { margin-top: 8px; font-size: 26px; line-height: 1.35; }
+  .lineas { margin-top: 36px; display: grid; gap: 16px; }
+  .linea { display: flex; align-items: center; gap: 18px; font-size: 34px; font-weight: 650; }
+  .punto { width: 18px; height: 18px; border-radius: 50%; flex: none; }
+  .tarjetas { display: grid; gap: 16px; margin-top: 34px; }
+  .t3 { grid-template-columns: repeat(3, 1fr); } .t4 { grid-template-columns: repeat(4, 1fr); } .t5 { grid-template-columns: repeat(5, 1fr); }
+  .tarjeta { padding: 20px 22px; border-radius: 14px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-left: 5px solid var(--c, var(--azul)); }
+  .tarjeta h3 { font-size: 22px; font-weight: 700; } .tarjeta p { margin-top: 6px; font-size: 16px; line-height: 1.4; color: var(--niebla); }
+  .cifra { font-size: 64px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+  .cifra[data-usd] { font-size: 40px; white-space: nowrap; padding-top: 14px; }
+  #cierre { align-items: center; text-align: center; }
+  #cierre .marca { justify-content: center; }
+  .kpi p { margin-top: 10px; font-size: 18px; color: var(--niebla); line-height: 1.35; }
+  .equipo { display: flex; gap: 22px; margin-top: 30px; }
+  .persona { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .persona span { width: 86px; height: 86px; border-radius: 50%; display: grid; place-items: center; font-size: 34px; font-weight: 750; background: rgba(255,255,255,.1); border: 2px solid rgba(255,255,255,.25); }
+  .persona b { font-size: 20px; }
+  .contacto { margin-top: 30px; display: inline-flex; align-items: center; gap: 16px; padding: 16px 26px; border-radius: 16px; background: var(--menta); color: var(--noche); font-size: 36px; font-weight: 800; }
+  .pie { position: fixed; right: 88px; top: 30px; font-size: 14px; color: rgba(201,210,232,.7); letter-spacing: .04em; }
+  .flujo { display: flex; align-items: center; gap: 14px; margin-top: 30px; font-size: 22px; font-weight: 650; }
+  .flujo span { padding: 12px 18px; border-radius: 12px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); }
+  .flecha { color: var(--niebla); font-size: 26px; }
+</style>
+</head>
+<body>
+  <section id="gancho">
+    <p class="antetitulo a" style="--i:0">Cuentas por pagar · hoy</p>
+    <h1 class="a" style="--i:1">Decenas de facturas al mes.<br><span class="suave">Cinco canales. Todo a mano.</span></h1>
+    <div class="chips a" style="--i:2"><span class="chip">💬 WhatsApp</span><span class="chip">✉️ Correo</span><span class="chip">📄 PDF</span><span class="chip">📷 Foto</span><span class="chip">🧾 XML</span></div>
+    <div class="alerta a" style="--i:4"><b>Un solo mensaje basta</b><p>«Cambié de banco. Por favor paguen a la cuenta terminada en ···0093.»</p></div>
+  </section>
+
+  <section id="kauta">
+    <div class="marca a" style="--i:0"><div class="k">K</div><h1>Kauta</h1></div>
+    <p class="a suave" style="--i:1; font-size:28px; margin-top:16px">El agente que paga por la empresa</p>
+    <div class="lineas">
+      <div class="linea a" style="--i:2"><i class="punto" style="background:var(--menta)"></i>Paga lo que cumple</div>
+      <div class="linea a" style="--i:3"><i class="punto" style="background:var(--coral)"></i>Frena lo que rompe una regla</div>
+      <div class="linea a" style="--i:4"><i class="punto" style="background:var(--ambar)"></i>Le pregunta a una persona el resto</div>
+    </div>
+    <div class="flujo a" style="--i:6"><span>La IA solo lee</span><b class="flecha">→</b><span>13 reglas deciden</span><b class="flecha">→</b><span>Todo queda auditado</span></div>
+  </section>
+
+  <section id="roles">
+    <p class="antetitulo a" style="--i:0">Tres roles, tres trabajos</p>
+    <h2 class="a" style="--i:1">Nadie aprueba, paga y da accesos a la vez</h2>
+    <div class="tarjetas t3">
+      <div class="tarjeta a" style="--i:2; --c:var(--azul)"><h3>Finanzas</h3><p>Opera y paga: responde a Kauta, aprueba hasta USD 3.000 y paga con su token en PayPal.</p></div>
+      <div class="tarjeta a" style="--i:3; --c:var(--ambar)"><h3>CEO</h3><p>Decide: aprueba lo que supera el umbral, las reglas y las rutas de pago.</p></div>
+      <div class="tarjeta a" style="--i:4; --c:var(--menta)"><h3>Administrador</h3><p>Gestiona accesos, seguridad e integraciones. No mueve dinero.</p></div>
+    </div>
+  </section>
+
+  <section id="tecnologias">
+    <p class="antetitulo a" style="--i:0">Por dentro</p>
+    <h2 class="a" style="--i:1">Un producto real, no una maqueta</h2>
+    <div class="tarjetas t4">
+      <div class="tarjeta a" style="--i:2; --c:var(--azul)"><h3>FastAPI · React 19</h3><p>Python, SQLAlchemy, TypeScript y Tailwind</p></div>
+      <div class="tarjeta a" style="--i:2.4; --c:var(--menta)"><h3>Motor de 13 reglas</h3><p>Determinista: misma factura, misma decisión</p></div>
+      <div class="tarjeta a" style="--i:2.8; --c:var(--ambar)"><h3>Lectura sin IA</h3><p>XML CFDI y DIAN exactos · OCR local Tesseract</p></div>
+      <div class="tarjeta a" style="--i:3.2; --c:#7A4FE0"><h3>PayPal</h3><p>Checkout y Payouts en sandbox · tokens por pago</p></div>
+      <div class="tarjeta a" style="--i:3.6; --c:var(--coral)"><h3>Seguridad de banco</h3><p>Argon2id · AES-256-GCM · TOTP · anti-CSRF</p></div>
+      <div class="tarjeta a" style="--i:4; --c:var(--azul)"><h3>Auditoría HMAC</h3><p>Cadena que se rompe si alguien altera un registro</p></div>
+      <div class="tarjeta a" style="--i:4.4; --c:var(--menta)"><h3>Wallet de doble partida</h3><p>Reservas, tránsito y conciliación para Excel</p></div>
+      <div class="tarjeta a" style="--i:4.8; --c:var(--ambar)"><h3>93 pruebas</h3><p>Automáticas, de punta a punta y responsive</p></div>
+    </div>
+  </section>
+
+  <section id="resultados">
+    <p class="antetitulo a" style="--i:0">Medido con los criterios del reto</p>
+    <h2 class="a" style="--i:1">¿Funciona? Estos son los números</h2>
+    <div class="tarjetas t4">
+      <div class="tarjeta kpi a" style="--i:2; --c:var(--menta)"><div class="cifra" data-hasta="20" data-de="20">0/20</div><p>decisiones correctas en el set oficial</p></div>
+      <div class="tarjeta kpi a" style="--i:2.6; --c:var(--coral)"><div class="cifra" data-hasta="11" data-de="11">0/11</div><p>fraudes y trampas detenidos</p></div>
+      <div class="tarjeta kpi a" style="--i:3.2; --c:var(--azul)"><div class="cifra" data-hasta="0">0</div><p>pagos fuera de las reglas</p></div>
+      <div class="tarjeta kpi a" style="--i:3.8; --c:var(--ambar)"><div class="cifra" data-hasta="6987" data-usd="1">USD 0</div><p>de ahorro en rutas de pago, sin tocar la reserva</p></div>
+    </div>
+    <p class="a suave" style="--i:5; font-size:22px; margin-top:28px">Año simulado: 175 facturas y 0 pagos indebidos · 94 % de los campos de fotos y PDF leídos con OCR, sin IA</p>
+  </section>
+
+  <section id="cierre">
+    <div class="marca a" style="--i:0"><div class="k">K</div><h1>Kauta</h1></div>
+    <p class="a" style="--i:1; font-size:34px; margin-top:14px; font-weight:650">Autónoma, pero cauta.</p>
+    <p class="a suave" style="--i:1.5; font-size:20px; margin-top:8px">El agente que paga por la empresa · Reto Blinka · Hackathon 30X</p>
+    <div class="equipo">
+      <div class="persona a" style="--i:2"><span>L</span><b>Luis</b></div>
+      <div class="persona a" style="--i:2.4"><span>J</span><b>Juan</b></div>
+      <div class="persona a" style="--i:2.8"><span>M</span><b>Mauricio</b></div>
+      <div class="persona a" style="--i:3.2"><span>L</span><b>Laura</b></div>
+    </div>
+    <div class="a" style="--i:4.2"><div class="contacto"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>313 389 8638</div></div>
+  </section>
+
+  <p class="pie">Kauta · Reto Blinka · Hackathon 30X · datos de demostración</p>
+
+<script>
+  const mostrar = () => {
+    const id = (location.hash || "#gancho").slice(1);
+    document.querySelectorAll("section").forEach((s) => s.classList.toggle("activa", s.id === id));
+    document.querySelectorAll(`#${id} .cifra[data-hasta]`).forEach((el) => {
+      const hasta = +el.dataset.hasta, de = el.dataset.de, usd = el.dataset.usd;
+      const t0 = performance.now() + 900;
+      const paso = (t) => {
+        const k = Math.min(1, Math.max(0, (t - t0) / 1100));
+        const v = Math.round(hasta * (1 - Math.pow(1 - k, 3)));
+        el.textContent = de ? `${v}/${de}` : usd ? `USD ${v.toLocaleString("es-CO")}` : `${v}`;
+        if (k < 1) requestAnimationFrame(paso);
+      };
+      requestAnimationFrame(paso);
+    });
+  };
+  addEventListener("hashchange", mostrar);
+  mostrar();
+</script>
+</body>
+</html>

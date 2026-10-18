@@ -1,0 +1,3 @@
+Inter (Rasmus Andersson y colaboradores) se distribuye bajo la SIL Open Font License 1.1.
+https://rsms.me/inter/  ·  https://openfontlicense.org
+Se incluye aquí solo para que la pantalla de Kauta se vea igual en cualquier computador.

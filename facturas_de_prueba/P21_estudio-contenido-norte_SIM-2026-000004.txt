@@ -1,0 +1,12 @@
+Exportación de chat simulada (formato WhatsApp) · Hackathon 30X · datos ficticios
+Los mensajes y llamadas están cifrados de extremo a extremo.
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Hola, les comparto la factura SIM-2026-000004 de producción de piezas.
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Fecha de emisión: 16/11/2026.
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Detalle de los ítems:
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): • SIM-SKU-4-1 · Producción de piezas: 20 piezas × USD 500.00 = USD 10,000.00
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): • SIM-SKU-4-2 · Edición y licencias de uso: 1 paquetes × USD 5,000.00 = USD 5,000.00
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Subtotal USD 15,000.00
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Total a pagar: USD 15,000.00
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Vence el 05/01/2027. Orden de compra SIM-OC-4. Pago a la cuenta registrada terminada en 2251.
+[17/11/26, 13:28] SIM Estudio Contenido Norte (facturación): Identificación: EIN 85-1266243.
+[17/11/26, 13:28] Mariana Torres (Brisamar): Recibida, gracias. Kauta la revisa contra la orden de compra.
