@@ -7,6 +7,10 @@ gastar menos sin romper la reserva mínima de cada empresa. Varias personas con 
 contraseña; la pantalla funciona igual en celular, tableta y computador. Proyecto del **Reto Blinka · Hackathon 30X**
 (16 al 18 de octubre de 2026). Equipo: Luis, Juan, Mauricio y Laura.
 
+**Demo en línea: [kauta.vercel.app](https://kauta.vercel.app).** Entre con cualquiera de las personas de prueba (la
+pantalla de inicio las lista; contraseña `Kauta-30X-demo-2026`). Allí no hay terminal: el token de 6 dígitos de las
+cuentas de ejemplo aparece en pantalla al pedirlo. Todos los datos son ficticios y PayPal se simula.
+
 > **Principio:** la IA lee, el código decide. El modelo solo extrae datos; un motor de 13 reglas
 > deterministas toma la decisión, y el pago tiene sus propios controles. Ningún pago depende de lo
 > que diga el modelo ni de lo que diga el documento.
