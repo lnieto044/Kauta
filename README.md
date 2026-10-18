@@ -212,6 +212,8 @@ proyecto `KAUTA_CLAVE_DATOS`, `KAUTA_CLAVE_FIRMA` y `KAUTA_CLAVE_AUDITORIA` (igu
 aparece en pantalla a quien lo pidió). Con PostgreSQL las operaciones de dinero se serializan entre instancias con un
 candado de la base (`pg_advisory_lock`), la demo se siembra una sola vez y cada documento recibido se guarda también en la
 base. Para probarlo antes contra PostgreSQL: `KAUTA_PRUEBAS_BD=postgresql+psycopg://… python -m pytest -q`.
+El proyecto de Vercel está conectado a este repositorio: **cada push a `main` se despliega solo** en kauta.vercel.app
+(`vercel.json` le dice a Vercel que construya `Dockerfile.vercel`).
 **Para cambiar la pantalla:** `cd web && npm install && npm run dev` (Vite en el puerto 5173, con la API en el 8000).
 **Plan B sin servidor web:** `streamlit run app.py` (la pantalla original, con el mismo motor).
 **Modo IA:** defina `ANTHROPIC_API_KEY` para que la IA lea lo que el lector local no logre. El modelo se
