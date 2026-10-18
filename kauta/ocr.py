@@ -165,15 +165,59 @@ def _tsv(im) -> list[dict[str, Any]]:
             continue
         filas.append({"texto": texto, "conf": conf / 100.0, "linea": (d.get("page_num"), d.get("block_num"),
                                                                      d.get("par_num"), d.get("line_num")),
-                      "top": int(d.get("top", 0)), "alto": int(d.get("height", 0))})
+                      "top": int(d.get("top", 0)), "alto": int(d.get("height", 0)),
+                      "left": int(d.get("left", 0)), "ancho": int(d.get("width", 0))})
     return filas
 
 
+# Una línea que es solo un monto («BRL 10.870,13», «$ 1.200», «-430,50»): su etiqueta es lo que está a su izquierda
+RE_SOLO_MONTO = re.compile(r"^(?:[A-Z]{3}|R\$|US\$|\$|€)?\s*-?\(?\s*\d[\d.,]*\)?$")
+
+
 def _texto_de(palabras: list[dict[str, Any]]) -> str:
-    lineas: dict[tuple, list[str]] = {}
+    """
+    Une las palabras en líneas. Parte de las líneas de Tesseract y, con la posición de cada palabra, corrige lo que
+    cada compilación de Tesseract corta distinto (la de Debian, por ejemplo, separa en bloques lo que la de Windows
+    lee como una sola fila):
+      * dos trozos de la misma fila casi pegados son una sola línea («SIM B» + «ricksave Proveedor 16»);
+      * un monto suelto se une a la etiqueta que tiene a su izquierda en la misma fila («TOTAL A PAGAR» … «BRL 10.870,13»).
+    """
+    grupos: dict[tuple, list[dict[str, Any]]] = {}
     for p in palabras:
-        lineas.setdefault(p["linea"], []).append(p["texto"])
-    return "\n".join(" ".join(v) for v in lineas.values())
+        grupos.setdefault(p["linea"], []).append(p)
+    if not all("left" in p and "ancho" in p for p in palabras):
+        return "\n".join(" ".join(w["texto"] for w in ws) for ws in grupos.values())
+    filas = []
+    for clave, ws in grupos.items():
+        altos = sorted(w["alto"] for w in ws)
+        filas.append({"texto": " ".join(w["texto"] for w in ws), "pagina": clave[0], "h": max(1, altos[len(altos) // 2]),
+                      "l": min(w["left"] for w in ws), "r": max(w["left"] + w["ancho"] for w in ws),
+                      "t": min(w["top"] for w in ws), "b": max(w["top"] + w["alto"] for w in ws), "viva": True})
+
+    def misma_fila(a, b) -> bool:
+        solape = min(a["b"], b["b"]) - max(a["t"], b["t"])
+        return a["pagina"] == b["pagina"] and solape >= 0.5 * min(a["b"] - a["t"], b["b"] - b["t"])
+
+    for a in filas:                                                     # 1. trozos pegados de la misma fila
+        while a["viva"]:
+            junto = [b for b in filas if b is not a and b["viva"] and misma_fila(a, b)
+                     and -0.2 * a["h"] <= b["l"] - a["r"] <= 0.6 * a["h"]]
+            if not junto:
+                break
+            b = min(junto, key=lambda x: x["l"])
+            pegado = b["l"] - a["r"] < 0.35 * a["h"] and a["texto"][-1:].isalpha() and b["texto"][:1].islower()
+            a["texto"] += ("" if pegado else " ") + b["texto"]
+            a["r"], a["b"], b["viva"] = b["r"], max(a["b"], b["b"]), False
+    for m in filas:                                                     # 2. montos sueltos con su etiqueta
+        if not m["viva"] or not RE_SOLO_MONTO.match(m["texto"]):
+            continue
+        etiquetas = [e for e in filas if e is not m and e["viva"] and misma_fila(e, m) and e["r"] <= m["l"] + 0.2 * m["h"]
+                     and not RE_SOLO_MONTO.match(e["texto"]) and re.search(r"[A-Za-zÁÉÍÓÚáéíóú]{3}", e["texto"])]
+        if etiquetas:
+            e = max(etiquetas, key=lambda x: x["r"])
+            e["texto"] += " " + m["texto"]
+            e["r"], m["viva"] = m["r"], False
+    return "\n".join(f["texto"] for f in filas if f["viva"])
 
 
 def leer_imagen(datos: bytes) -> dict[str, Any]:
@@ -499,10 +543,11 @@ def campos_desde_texto(texto: str, palabras: list[dict[str, Any]] | None = None,
     conf_num = conf_de(numero, 0.92)
 
     moneda, conf_mon = None, 0.0
-    for cod, patron in MONEDAS.items():
-        if re.search(patron, texto, re.I):
-            moneda, conf_mon = cod, (0.95 if digital else _conf_de(palabras, cod) or 0.8)
-            break
+    # La moneda que más se repite: un «16%» que el OCR leyó como «1€» no vuelve EUR una factura con cuatro «BRL»
+    veces = {cod: len(re.findall(patron, texto, re.I)) for cod, patron in MONEDAS.items()}
+    if max(veces.values(), default=0):
+        cod = max(veces, key=lambda c: veces[c])                   # en empate gana el orden de MONEDAS
+        moneda, conf_mon = cod, (0.95 if digital else _conf_de(palabras, cod) or 0.8)
     if not moneda and "$" in texto:
         moneda, conf_mon = N.normalizar_moneda("$", pais), 0.5
 
@@ -585,6 +630,7 @@ def leer(nombre: str, datos: bytes, texto_incrustado: str = "", cliente: dict | 
                      "confianza_media": round(sum(p["conf"] for p in palabras) / len(palabras), 4) if palabras else None,
                      "caracteres": len(texto)}
     campos["_texto"] = texto
-    campos["_palabras"] = [{"texto": w["texto"], "conf": round(w["conf"], 3), "linea": "-".join(map(str, w["linea"]))}
+    campos["_palabras"] = [{"texto": w["texto"], "conf": round(w["conf"], 3), "linea": "-".join(map(str, w["linea"])),
+                            **{k: w[k] for k in ("top", "alto", "left", "ancho") if k in w}}
                            for w in palabras[:3000]]
     return campos
